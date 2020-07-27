@@ -10,4 +10,5 @@ class Home(View):
         }
         return render(self.request, template, context)
 
+
 home_view = Home.as_view()

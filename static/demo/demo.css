@@ -1,0 +1,135 @@
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+/* NOTIFICATIONS */
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  right: auto;
+  background: rgb(43, 39, 39);
+  color: rgb(0, 143, 64);
+  z-index: 100;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin-left: -140px;
+  margin-right: auto;
+  box-shadow: 
+  0 1px 1px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.6);  
+  opacity: 0;
+  cursor: default;
+  display: none;
+}
+
+.box-color {
+  background: #f6db7b;
+border: 1px solid #f6db7b;
+}
+.notification .progress {
+  width: 0;
+  border-bottom: 3px solid rgb(20, 113, 175);
+  color: rgb(206, 36, 36);
+  background: inherit;
+  margin-top: 0px;
+  padding: 0px 2px;
+  height: 7px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+@keyframes fadeOut {
+0% 	{ opacity: 0; }
+10% { opacity: 1; }
+90% { opacity: 1; transform: translateY(0px);}
+99% { opacity: 0; transform: translateY(-30px);}
+100% { opacity: 0; }
+}
+
+@keyframes runProgress {
+0%	{ width: 0%; background: rgba(255,255,255,0.3); }
+100% { width: 98%; background: rgba(255,255,255,1); }
+}
+.notification.box-color:hover, 
+.notification:hover .progress{
+animation-play-state: paused;
+}
+
+.notification.box-active {
+display: block;
+animation: fadeOut 6s linear forwards;
+}
+
+.notification.box-active .progress {
+  animation: runProgress 5s linear forwards 0.5s;
+  color: inherit;
+  background: inherit;
+}
+.notification p {
+  font-family: 'Oswald';
+  margin: 5px auto;
+  padding: 5px 20px;
+}
+/* //NOTIFICATIONS */
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+@media all and (min-width: 992px) {
+  .sidebar .nav>li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+}
+
+.card.card-upgrade .card-category {
+  max-width: 530px;
+  margin: 0 auto;
+}
