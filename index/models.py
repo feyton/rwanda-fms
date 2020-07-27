@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class TransportPermit(models.Model):
+    names = models.CharField(max_length=255)

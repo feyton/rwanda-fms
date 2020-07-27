@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'District_Forests.urls'
+ROOT_URLCONF = 'dfm.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'District_Forests.wsgi.application'
+WSGI_APPLICATION = 'dfm.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
@@ -142,8 +142,9 @@ ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_FORM_CLASS = SIGNUP_FORM_CLASS
 
-def ACCOUNT_USER_DISPLAY(user): return user.get_full_name()
 
+def ACCOUNT_USER_DISPLAY(user):
+    return user.get_full_name()
 
 
 # Internationalization
