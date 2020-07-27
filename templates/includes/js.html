@@ -4,3 +4,19 @@
 <script src="/static/js/core/bootstrap.min.js"></script>
 <script src="/static/js/plugins/bootstrap-notify.js"></script>
 <script src="/static/js/now-ui-dashboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.9/datepicker.min.js"
+    integrity="sha256-ZfF8n2U/HAoaw9WFo8VCUbLo58Q/goLRQ1TFrf4DA94=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("#add-Transaction").click(function () {
+            var end_date = new Date();
+            $("#id_date").datepicker({
+                format: "yyyy-mm-dd",
+                endDate: end_date,
+                startDate: "2020/01/01",
+                weekStart: "1",
+                todayBtn: "linked",
+            });
+        });
+    });
+</script>
