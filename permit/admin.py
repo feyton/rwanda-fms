@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import TransportPermit
 
-# Register your models here.
+admin.site.register(TransportPermit)

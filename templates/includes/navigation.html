@@ -9,12 +9,7 @@
           <span class="navbar-toggler-bar bar3"></span>
         </button>
       </div>
-      <nav aria-label="breadcrumb" role="navigation" class="bg-transparent">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Library</li>
-        </ol>
-      </nav>
+      <a href="/" target="_blank" rel="noopener noreferrer">Main</a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +19,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navigation">
 
-      {% if not user.is_authenticated %}
+      {% if user.is_authenticated %}
       <form method="get" action="">
         <div class="input-group no-border">
           <input type="text" value="" class="form-control" placeholder="Search..." disabled>

@@ -41,9 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'index',
     'user',
+    'permit',
     # AllAuth
     'allauth',
     'allauth.account',
+    'allauth.socialaccount',
     'rest_framework'
 ]
 
