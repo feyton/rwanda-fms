@@ -5,14 +5,13 @@ from django.http import HttpResponse
 from django.template.loader import get_template
 from django.utils import timezone
 from xhtml2pdf import pisa
+import random
 
 
-def permit_code(category):
-    num = 0
-    text = category.upper()
-    year = datetime.now().year
-    num += 1
-    return "%s/%s/%s" % (num, text, year)
+def permit_code():
+    string = 'QWERTYUIOPASDFGHJKLZXCVBNM'
+    randomstr = ''.join((random.choice(string)) for x in range(4))
+    return '%s-%s' % (datetime.now().strftime('%Y%m%d'), randomstr)
 
 
 def start_date_default():

@@ -1,0 +1,163 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+@page {
+    size: letter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-size: 8pt;
+}
+
+.header1 {
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.symbol img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 30px
+}
+
+.page-wrapper {
+    margin-top: 10mm;
+    width: 160mm;
+    height: 250mm;
+    background-color: white;
+    margin-left: 10mm;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.head-title {
+    margin-top: 1mm;
+}
+
+.requestor.info {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1mm;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-evenly;
+}
+
+.info .normal {
+    font-size: 8pt;
+}
+
+.info b {
+    font-size: 8pt;
+}
+
+table {
+    width: 100%;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    font-size: 8pt;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+tbody .empty td {
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+ul .no-decoration {
+    list-style: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.pt-1 {
+    padding-top: 1pt;
+}
+
+.pt-3 {
+    padding-top: 3pt;
+}
+
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.pl-10 {
+    padding-left: 50px;
+}
+
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
