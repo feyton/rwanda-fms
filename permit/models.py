@@ -71,7 +71,18 @@ class Address(models.Model):
     def __str__(self):
         return self.province.name
 
-    def code_gen()
+    def code_gen(self):
+        code = '%s/%s/%s' % (self.province.code,
+                             self.district.code, self.sector.code)
+        if self.cell:
+            code = '%s/%s/%s/%s/' % (self.province.code,
+                                     self.district.code, self.sector.code, self.cell.code)
+
+        return code
+
+    def save(self, *args, **kwargs):
+        if not self.code:
+            self.code = self.code_gen()
 
 
 class Mayor(models.Model):
@@ -115,3 +126,4 @@ class TransportPermit(models.Model):
     def save(self, *args, **kwargs):
         if not self.code:
             self.code = permit_code()
+        super().save(*args, **kwargs)

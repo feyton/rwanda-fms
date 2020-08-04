@@ -1,0 +1,1001 @@
+FID,ADM0_EN,ADM0_FR,ADM0_RW,PROVINCE,PCODE,DISTRICT,DCODE,SECTOR,SCODE,CELL,CCODE
+420,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Munini,RW250105
+416,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Bushigishigi,RW250101
+417,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Byimana,RW250102
+418,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Gifurwe,RW250103
+419,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Kizimyamuriro,RW250104
+421,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Buruhukiro,RW2501,Rambya,RW250106
+271,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Busanze,RW2301,Nteko,RW230103
+269,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Busanze,RW2301,Kirarangombe,RW230101
+270,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Busanze,RW2301,Nkanda,RW230102
+272,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Busanze,RW2301,Runyombyi,RW230104
+273,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Busanze,RW2301,Shororo,RW230105
+160,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busasamana,RW2101,Kavumu,RW210102
+162,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busasamana,RW2101,Nyanza,RW210104
+163,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busasamana,RW2101,Rwesero,RW210105
+159,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busasamana,RW2101,Gahondo,RW210101
+161,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busasamana,RW2101,Kibinja,RW210103
+164,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Gitovu,RW210201
+166,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Masangano,RW210203
+165,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Kimirama,RW210202
+167,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Munyinya,RW210204
+168,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Rukingiro,RW210205
+169,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Busoro,RW2102,Shyira,RW210206
+511,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Bweramana,RW2601,Rubona,RW260104
+510,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Bweramana,RW2601,Murama,RW260103
+508,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Bweramana,RW2601,Buhanda,RW260101
+509,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Bweramana,RW2601,Gitisi,RW260102
+512,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Bweramana,RW2601,Rwinyana,RW260105
+517,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Muhororo,RW260205
+516,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Mpanda,RW260204
+513,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Kamusenyi,RW260201
+514,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Kirengeri,RW260202
+515,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Mahembe,RW260203
+518,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Ntenyo,RW260206
+519,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Byimana,RW2602,Nyakabuye,RW260207
+174,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Cyabakamyi,RW2103,Rubona,RW210305
+173,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Cyabakamyi,RW2103,Nyarurama,RW210304
+171,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Cyabakamyi,RW2103,Karama,RW210302
+170,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Cyabakamyi,RW2103,Kadaho,RW210301
+172,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Cyabakamyi,RW2103,Nyabinyenga,RW210303
+274,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Cyahinda,RW2302,Coko,RW230201
+275,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Cyahinda,RW2302,Cyahinda,RW230202
+276,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Cyahinda,RW2302,Gasasa,RW230203
+277,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Cyahinda,RW2302,Muhambara,RW230204
+278,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Cyahinda,RW2302,Rutobwe,RW230205
+425,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Ngoma,RW250204
+422,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Gitega,RW250201
+426,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Nyanza,RW250205
+423,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Karama,RW250202
+424,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Kiyumba,RW250203
+427,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Cyanika,RW2502,Nyanzoga,RW250206
+568,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Kigarama,RW270102
+569,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Kivumu,RW270103
+571,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Nyarunyinya,RW270105
+572,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Shori,RW270106
+567,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Biringaga,RW270101
+570,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Cyeza,RW2701,Makera,RW270104
+631,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Gacurabwenge,RW2801,Gihira,RW280102
+630,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Gacurabwenge,RW2801,Gihinga,RW280101
+632,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Gacurabwenge,RW2801,Kigembe,RW280103
+633,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Gacurabwenge,RW2801,Nkingo,RW280104
+433,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Remera,RW250306
+431,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Nyamugari,RW250304
+429,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Ngiryi,RW250302
+428,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Kigeme,RW250301
+430,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Nyabivumu,RW250303
+432,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gasaka,RW2503,Nzega,RW250305
+435,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gatare,RW2504,Gatare,RW250402
+434,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gatare,RW2504,Bakopfu,RW250401
+436,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gatare,RW2504,Mukongoro,RW250403
+437,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gatare,RW2504,Ruganda,RW250404
+438,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Gatare,RW2504,Shyeru,RW250405
+211,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gikonko,RW2201,Gasagara,RW220102
+210,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gikonko,RW2201,Cyiri,RW220101
+212,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gikonko,RW2201,Gikonko,RW220103
+213,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gikonko,RW2201,Mbogo,RW220104
+343,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Gishamvu,RW2401,Shori,RW240104
+341,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Gishamvu,RW2401,Nyakibanda,RW240101
+342,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Gishamvu,RW2401,Nyumba,RW240102
+214,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gishubi,RW2202,Gabiro,RW220201
+215,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gishubi,RW2202,Nyabitare,RW220202
+216,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gishubi,RW2202,Nyakibungo,RW220203
+217,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Gishubi,RW2202,Nyeranzi,RW220204
+347,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Huye,RW2402,Sovu,RW240204
+344,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Huye,RW2402,Muyogoro,RW240201
+345,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Huye,RW2402,Nyakagezi,RW240202
+346,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Huye,RW2402,Rukira,RW240203
+579,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Ngoma,RW270207
+576,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Kavumu,RW270204
+574,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Butare,RW270202
+575,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Kabuye,RW270203
+573,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Buramba,RW270201
+577,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Kibyimba,RW270205
+578,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Ngarama,RW270206
+580,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kabacuzi,RW2702,Sholi,RW270208
+523,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Remera,RW260304
+522,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Munanira,RW260303
+524,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Rwesero,RW260305
+520,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Bihembe,RW260301
+521,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Karambi,RW260302
+525,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kabagali,RW2603,Rwoga,RW260306
+439,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kaduha,RW2505,Kavumu,RW250501
+440,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kaduha,RW2505,Murambi,RW250502
+442,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kaduha,RW2505,Nyabisindu,RW250504
+443,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kaduha,RW2505,Nyamiyaga,RW250505
+441,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kaduha,RW2505,Musenyi,RW250503
+444,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Bwama,RW250601
+445,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Kamegeri,RW250602
+446,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Kirehe,RW250603
+447,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Kizi,RW250604
+448,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Nyarusiza,RW250605
+449,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kamegeri,RW2506,Rususa,RW250606
+219,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kansi,RW2203,Bwiza,RW220302
+218,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kansi,RW2203,Akaboti,RW220301
+220,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kansi,RW2203,Sabusaro,RW220303
+221,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kansi,RW2203,Umunini,RW220304
+348,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Karama,RW2403,Buhoro,RW240301
+349,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Karama,RW2403,Bunazi,RW240302
+350,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Karama,RW2403,Gahororo,RW240303
+351,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Karama,RW2403,Kibingo,RW240304
+352,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Karama,RW2403,Muhembe,RW240305
+636,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Karama,RW2802,Muganza,RW280203
+634,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Karama,RW2802,Bitare,RW280201
+635,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Karama,RW2802,Bunyonga,RW280202
+637,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Karama,RW2802,Nyamirembe,RW280204
+642,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Mataba,RW280305
+643,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Nyamirama,RW280306
+641,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Kirwa,RW280304
+638,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Bugarama,RW280301
+639,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Cubi,RW280302
+640,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayenzi,RW2803,Kayonza,RW280303
+644,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayumbu,RW2804,Busoro,RW280401
+645,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayumbu,RW2804,Gaseke,RW280402
+647,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayumbu,RW2804,Muyange,RW280404
+646,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Kayumbu,RW2804,Giko,RW280403
+584,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Mubuga,RW270304
+582,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Gitega,RW270302
+581,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Gisharu,RW270301
+583,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Jurwe,RW270303
+585,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Rubyiniro,RW270305
+586,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kibangu,RW2703,Ryakanimba,RW270306
+283,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Mubuga,RW230305
+279,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Gakoma,RW230301
+282,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Mpanda,RW230304
+280,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Kibeho,RW230302
+281,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Mbasa,RW230303
+284,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kibeho,RW2303,Nyange,RW230306
+176,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kibilizi,RW2104,Mbuye,RW210402
+175,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kibilizi,RW2104,Cyeru,RW210401
+177,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kibilizi,RW2104,Mututu,RW210403
+178,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kibilizi,RW2104,Rwotso,RW210404
+223,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kibirizi,RW2204,Kibirizi,RW220402
+224,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kibirizi,RW2204,Muyira,RW220403
+222,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kibirizi,RW2204,Duwani,RW220401
+225,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kibirizi,RW2204,Ruturo,RW220404
+453,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Karambo,RW250704
+450,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Bugarama,RW250701
+451,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Bugarura,RW250702
+452,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Gashiha,RW250703
+454,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Ruhunga,RW250705
+455,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibirizi,RW2507,Uwindekezi,RW250706
+456,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibumbwe,RW2508,Bwenda,RW250801
+457,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibumbwe,RW2508,Gakanka,RW250802
+458,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibumbwe,RW2508,Kibibi,RW250803
+459,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kibumbwe,RW2508,Nyakiza,RW250804
+227,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Gatovu,RW220502
+230,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Rubona,RW220505
+229,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Nyabikenke,RW220504
+231,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Rusagara,RW220506
+226,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Agahabwa,RW220501
+228,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Kigembe,RW2205,Impinga,RW220503
+355,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Kabuga,RW240403
+358,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Nyabisindu,RW240406
+359,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Rugarama,RW240407
+356,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Karambi,RW240404
+360,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Shanga,RW240408
+353,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Gishihe,RW240401
+354,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Kabatwa,RW240402
+357,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kigoma,RW2404,Musebeya,RW240405
+179,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kigoma,RW2105,Butansinda,RW210501
+180,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kigoma,RW2105,Butara,RW210502
+181,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kigoma,RW2105,Gahombo,RW210503
+182,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kigoma,RW2105,Gasoro,RW210504
+183,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Kigoma,RW2105,Mulinja,RW210505
+363,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kinazi,RW2405,Gitovu,RW240503
+364,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kinazi,RW2405,Kabona,RW240504
+361,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kinazi,RW2405,Byinza,RW240501
+362,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kinazi,RW2405,Gahana,RW240502
+365,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Kinazi,RW2405,Sazange,RW240505
+529,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinazi,RW2604,Rubona,RW260404
+526,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinazi,RW2604,Burima,RW260401
+527,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinazi,RW2604,Gisali,RW260402
+528,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinazi,RW2604,Kinazi,RW260403
+530,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinazi,RW2604,Rutabo,RW260405
+533,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Kirwa,RW260503
+531,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Bweramvura,RW260501
+532,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Gitinda,RW260502
+534,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Muyunzwe,RW260504
+535,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Nyakogo,RW260505
+536,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Kinihira,RW2605,Rukina,RW260506
+460,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kitabi,RW2509,Kagano,RW250901
+461,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kitabi,RW2509,Mujuga,RW250902
+462,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kitabi,RW2509,Mukungu,RW250903
+463,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kitabi,RW2509,Shaba,RW250904
+464,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Kitabi,RW2509,Uwingugu,RW250905
+289,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kivu,RW2304,Rugerero,RW230405
+285,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kivu,RW2304,Cyanyirankora,RW230401
+286,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kivu,RW2304,Gahurizo,RW230402
+287,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kivu,RW2304,Kimina,RW230403
+288,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Kivu,RW2304,Kivu,RW230404
+589,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kiyumba,RW2704,Remera,RW270403
+587,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kiyumba,RW2704,Budende,RW270401
+588,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kiyumba,RW2704,Ndago,RW270402
+590,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kiyumba,RW2704,Ruhina,RW270404
+591,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Kiyumba,RW2704,Rukeri,RW270405
+232,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mamba,RW2206,Gakoma,RW220601
+236,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mamba,RW2206,Ramba,RW220605
+233,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mamba,RW2206,Kabumbwe,RW220602
+234,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mamba,RW2206,Mamba,RW220603
+235,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mamba,RW2206,Muyaga,RW220604
+371,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Shyembe,RW240606
+368,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Kabuye,RW240603
+369,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Kanyinya,RW240604
+370,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Shanga,RW240605
+366,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Buremera,RW240601
+367,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Maraba,RW2406,Gasumba,RW240602
+291,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Mata,RW2305,Murambi,RW230502
+292,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Mata,RW2305,Nyamabuye,RW230503
+293,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Mata,RW2305,Ramba,RW230504
+294,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Mata,RW2305,Rwamiko,RW230505
+290,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Mata,RW2305,Gorwe,RW230501
+373,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Kabuga,RW240702
+377,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Rusagara,RW240706
+372,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Gatobotobo,RW240701
+374,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Mutunda,RW240703
+375,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Mwulire,RW240704
+376,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Rugango,RW240705
+378,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mbazi,RW2407,Tare,RW240707
+468,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mbazi,RW2510,Ngara,RW251004
+465,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mbazi,RW2510,Manwari,RW251001
+466,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mbazi,RW2510,Mutiwingoma,RW251002
+467,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mbazi,RW2510,Ngambi,RW251003
+539,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Kabuga,RW260603
+542,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Mwendo,RW260606
+541,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Mbuye,RW260605
+537,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Cyanza,RW260601
+538,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Gisanga,RW260602
+540,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Kizibere,RW260604
+543,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mbuye,RW2606,Nyakarekare,RW260607
+470,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Gitwa,RW251102
+471,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Ruhinga,RW251103
+472,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Sovu,RW251104
+469,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Gitondorero,RW251101
+473,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Suti,RW251105
+474,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mugano,RW2511,Yonde,RW251106
+239,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Muganza,RW2207,Remera,RW220703
+238,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Muganza,RW2207,Muganza,RW220702
+240,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Muganza,RW2207,Rwamiko,RW220704
+237,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Muganza,RW2207,Cyumba,RW220701
+241,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Muganza,RW2207,Saga,RW220705
+295,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Muganza,RW2306,Muganza,RW230601
+296,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Muganza,RW2306,Rukore,RW230602
+297,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Muganza,RW2306,Samiyonga,RW230603
+298,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Muganza,RW2306,Uwacyiza,RW230604
+648,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Mugina,RW2805,Jenda,RW280501
+652,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Mugina,RW2805,Nteko,RW280505
+649,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Mugina,RW2805,Kabugondo,RW280502
+650,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Mugina,RW2805,Mbati,RW280503
+651,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Mugina,RW2805,Mugina,RW280504
+242,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mugombwa,RW2208,Baziro,RW220801
+243,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mugombwa,RW2208,Kibayi,RW220802
+244,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mugombwa,RW2208,Kibu,RW220803
+245,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mugombwa,RW2208,Mugombwa,RW220804
+246,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mugombwa,RW2208,Mukomacara,RW220805
+595,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Muhanga,RW2705,Remera,RW270504
+594,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Muhanga,RW2705,Nyamirama,RW270503
+596,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Muhanga,RW2705,Tyazo,RW270505
+592,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Muhanga,RW2705,Kanyinya,RW270501
+593,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Muhanga,RW2705,Nganzo,RW270502
+247,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mukindo,RW2209,Gitega,RW220901
+250,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mukindo,RW2209,Runyinya,RW220904
+248,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mukindo,RW2209,Mukiza,RW220902
+249,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Mukindo,RW2209,Nyabisagara,RW220903
+185,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Gatagara,RW210602
+184,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Cyerezo,RW210601
+186,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Kiruli,RW210603
+187,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Mpanga,RW210604
+188,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Ngwa,RW210605
+189,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Mukingo,RW2106,Nkomero,RW210606
+379,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mukura,RW2408,Bukomeye,RW240801
+380,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mukura,RW2408,Buvumu,RW240802
+381,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mukura,RW2408,Icyeru,RW240803
+382,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Mukura,RW2408,Rango a,RW240804
+299,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Munini,RW2307,Giheta,RW230701
+300,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Munini,RW2307,Ngarurira,RW230702
+301,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Munini,RW2307,Ngeri,RW230703
+302,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Munini,RW2307,Ntwali,RW230704
+303,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Munini,RW2307,Nyarure,RW230705
+653,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Buhoro,RW280601
+656,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Kivumu,RW280604
+655,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Karengera,RW280603
+654,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Cyambwe,RW280602
+657,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Mpushi,RW280605
+658,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Musambira,RW2806,Rukambura,RW280606
+480,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Nyagisozi,RW251206
+478,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Masangano,RW251204
+475,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Gasave,RW251201
+476,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Jenda,RW251202
+477,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Masagara,RW251203
+479,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musange,RW2512,Masizi,RW251205
+481,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Gatovu,RW251301
+482,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Nyarurambi,RW251302
+483,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Rugano,RW251303
+484,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Runege,RW251304
+485,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Rusekera,RW251305
+486,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Musebeya,RW2513,Sekera,RW251306
+252,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Musha,RW2210,Gatovu,RW221002
+253,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Musha,RW2210,Kigarama,RW221003
+251,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Musha,RW2210,Bukinanyana,RW221001
+254,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Musha,RW2210,Kimana,RW221004
+597,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Matyazo,RW270601
+598,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Munazi,RW270602
+599,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Nyagasozi,RW270603
+600,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Rukaragata,RW270604
+601,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Rwasare,RW270605
+602,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Mushishiro,RW2706,Rwigerero,RW270606
+487,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mushubi,RW2514,Buteteri,RW251401
+488,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mushubi,RW2514,Cyobe,RW251402
+489,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Mushubi,RW2514,Gashwati,RW251403
+194,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Muyira,RW2107,Nyundo,RW210705
+192,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Muyira,RW2107,Nyamiyaga,RW210703
+190,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Muyira,RW2107,Gati,RW210701
+191,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Muyira,RW2107,Migina,RW210702
+193,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Muyira,RW2107,Nyamure,RW210704
+547,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Kigarama,RW260704
+544,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Gafunzo,RW260701
+545,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Gishweru,RW260702
+546,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Kamujisho,RW260703
+548,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Kubutare,RW260705
+549,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Mutara,RW260706
+550,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Nyabibugu,RW260707
+551,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Mwendo,RW2607,Saruheshyi,RW260708
+255,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Ndora,RW2211,Bweya,RW221101
+256,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Ndora,RW2211,Cyamukuza,RW221102
+257,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Ndora,RW2211,Dahwe,RW221103
+258,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Ndora,RW2211,Gisagara,RW221104
+259,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Ndora,RW2211,Mukande,RW221105
+659,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Ngamba,RW2807,Kabuga,RW280701
+660,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Ngamba,RW2807,Marembo,RW280703
+307,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Nyamirama,RW230804
+308,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Nyanza,RW230805
+306,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Murama,RW230803
+304,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Bitare,RW230801
+305,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Mukuge,RW230802
+309,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngera,RW2308,Yaramba,RW230806
+386,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ngoma,RW2409,Ngoma,RW240904
+383,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ngoma,RW2409,Butare,RW240901
+385,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ngoma,RW2409,Matyazo,RW240903
+384,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ngoma,RW2409,Kaburemera,RW240902
+315,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Rubona,RW230906
+314,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Nyamirama,RW230905
+313,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Mbuye,RW230904
+310,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Fugi,RW230901
+311,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Kibangu,RW230902
+312,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ngoma,RW2309,Kiyonza,RW230903
+493,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Nkomane,RW251504
+490,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Bitandara,RW251501
+491,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Musaraba,RW251502
+492,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Mutengeri,RW251503
+494,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Nyarwungo,RW251505
+495,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Nkomane,RW2515,Twiya,RW251506
+556,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Nyagisozi,RW260805
+558,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Nyarurama,RW260807
+553,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Kareba,RW260802
+552,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Gako,RW260801
+554,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Kayenzi,RW260803
+557,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Nyakabungo,RW260806
+555,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ntongwe,RW2608,Kebero,RW260804
+197,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Ntyazo,RW2108,Kagunga,RW210803
+195,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Ntyazo,RW2108,Bugali,RW210801
+196,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Ntyazo,RW2108,Cyotamakara,RW210802
+198,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Ntyazo,RW2108,Katarara,RW210804
+317,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyabimata,RW2310,Kabere,RW231002
+320,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyabimata,RW2310,Ruhinga,RW231005
+316,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyabimata,RW2310,Gihemvu,RW231001
+318,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyabimata,RW2310,Mishungero,RW231003
+319,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyabimata,RW2310,Nyabimata,RW231004
+604,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyabinoni,RW2707,Masangano,RW270702
+603,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyabinoni,RW2707,Gashorera,RW270701
+605,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyabinoni,RW2707,Mbuga,RW270703
+606,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyabinoni,RW2707,Muvumba,RW270704
+607,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyabinoni,RW2707,Nyarusozi,RW270705
+201,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Nyagisozi,RW2109,Kabuga,RW210903
+199,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Nyagisozi,RW2109,Gahunga,RW210901
+200,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Nyagisozi,RW2109,Kabirizi,RW210902
+202,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Nyagisozi,RW2109,Kirambi,RW210904
+203,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Nyagisozi,RW2109,Rurangazi,RW210905
+324,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyagisozi,RW2311,Nyagisozi,RW231104
+321,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyagisozi,RW2311,Maraba,RW231101
+322,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyagisozi,RW2311,Mwoya,RW231102
+323,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Nyagisozi,RW2311,Nkakwa,RW231103
+611,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyamabuye,RW2708,Remera,RW270804
+610,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyamabuye,RW2708,Gitarama,RW270803
+608,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyamabuye,RW2708,Gahogo,RW270801
+609,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyamabuye,RW2708,Gifumba,RW270802
+665,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyamiyaga,RW2808,Ngoma,RW280805
+661,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyamiyaga,RW2808,Bibungo,RW280801
+662,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyamiyaga,RW2808,Kabashumba,RW280802
+663,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyamiyaga,RW2808,Kidahwe,RW280803
+664,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyamiyaga,RW2808,Mukinga,RW280804
+261,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Nyanza,RW2212,Nyamugari,RW221202
+260,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Nyanza,RW2212,Higiro,RW221201
+262,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Nyanza,RW2212,Nyaruteja,RW221203
+263,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Nyanza,RW2212,Umubanga,RW221204
+666,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyarubaka,RW2809,Gitare,RW280901
+667,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyarubaka,RW2809,Kambyeyi,RW280902
+668,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyarubaka,RW2809,Kigusa,RW280903
+669,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyarubaka,RW2809,Nyagishubi,RW280904
+670,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Nyarubaka,RW2809,Ruyanza,RW280905
+612,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyarusange,RW2709,Mbiriri,RW270901
+613,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyarusange,RW2709,Musongati,RW270902
+614,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyarusange,RW2709,Ngaru,RW270903
+615,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Nyarusange,RW2709,Rusovu,RW270904
+617,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rongi,RW2710,Gasharu,RW271002
+618,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rongi,RW2710,Karambo,RW271003
+616,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rongi,RW2710,Gasagara,RW271001
+620,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rongi,RW2710,Ruhango,RW271005
+619,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rongi,RW2710,Nyamirambo,RW271004
+671,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rugarika,RW2810,Bihembe,RW281001
+672,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rugarika,RW2810,Kigese,RW281002
+673,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rugarika,RW2810,Masaka,RW281003
+674,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rugarika,RW2810,Nyarubuye,RW281004
+675,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rugarika,RW2810,Sheli,RW281005
+621,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rugendabari,RW2711,Gasave,RW271101
+624,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rugendabari,RW2711,Mpinga,RW271104
+622,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rugendabari,RW2711,Kanyana,RW271102
+623,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rugendabari,RW2711,Kibaga,RW271103
+625,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Rugendabari,RW2711,Nsanga,RW271105
+559,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Buhoro,RW260901
+562,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Munini,RW260904
+565,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Rwoga,RW260907
+560,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Bunyogombe,RW260902
+561,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Gikoma,RW260903
+563,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Musamo,RW260905
+564,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Nyamagana,RW260906
+566,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Ruhango,RW26,Ruhango,RW2609,Tambwe,RW260908
+388,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Gatovu,RW241002
+390,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Muhororo,RW241005
+391,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Rugogwe,RW241006
+387,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Busheshi,RW241001
+389,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Mara,RW241004
+392,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Ruhashya,RW2410,Ruhashya,RW241007
+327,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruheru,RW2312,Remera,RW231203
+326,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruheru,RW2312,Kabere,RW231202
+328,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruheru,RW2312,Ruyenzi,RW231204
+325,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruheru,RW2312,Gitita,RW231201
+329,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruheru,RW2312,Uwumusebeya,RW231205
+679,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Murehe,RW281104
+681,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Taba,RW281107
+676,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Bugoba,RW281101
+677,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Buguri,RW281102
+678,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Gishyeshye,RW281103
+680,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Rukoma,RW2811,Mwirute,RW281105
+685,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Runda,RW2812,Muganza,RW281204
+684,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Runda,RW2812,Kagina,RW281203
+686,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Runda,RW2812,Ruyenzi,RW281205
+682,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Runda,RW2812,Gihara,RW281201
+683,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Kamonyi,RW28,Runda,RW2812,Kabagesera,RW281202
+333,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruramba,RW2313,Rugogwe,RW231304
+330,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruramba,RW2313,Gabiro,RW231301
+331,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruramba,RW2313,Giseke,RW231302
+332,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruramba,RW2313,Nyarugano,RW231303
+334,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Ruramba,RW2313,Ruramba,RW231305
+393,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Buhimba,RW241101
+394,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Gafumba,RW241102
+395,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Kimirehe,RW241103
+396,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Kimuna,RW241104
+397,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Kiruhura,RW241105
+398,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rusatira,RW2411,Mugogwe,RW241106
+335,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Bunge,RW231401
+336,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Cyuna,RW231402
+337,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Gikunzi,RW231403
+338,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Mariba,RW231404
+339,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Raranzige,RW231405
+340,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyaruguru,RW23,Rusenge,RW2314,Rusenge,RW231406
+206,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Mubuga,RW211003
+204,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Gacu,RW211001
+205,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Gishike,RW211002
+207,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Mushirarungu,RW211004
+208,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Nyarusange,RW211005
+209,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyanza,RW21,Rwabicuma,RW2110,Runga,RW211006
+402,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Mwendo,RW241204
+403,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Nyamabuye,RW241205
+399,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Gatwaro,RW241201
+400,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Kamwambi,RW241202
+401,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Kibiraro,RW241203
+404,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Nyaruhombo,RW241206
+405,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Rwaniro,RW2412,Shyunga,RW241207
+265,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Save,RW2213,Munazi,RW221302
+264,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Save,RW2213,Gatoki,RW221301
+266,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Save,RW2213,Rwanza,RW221303
+267,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Save,RW2213,Shyanda,RW221304
+268,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Gisagara,RW22,Save,RW2213,Zivu,RW221305
+628,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Shyogwe,RW2712,Mubuga,RW271203
+626,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Shyogwe,RW2712,Kinini,RW271201
+627,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Shyogwe,RW2712,Mbare,RW271202
+629,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Muhanga,RW27,Shyogwe,RW2712,Ruli,RW271204
+406,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Simbi,RW2413,Cyendajuru,RW241301
+407,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Simbi,RW2413,Gisakura,RW241302
+408,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Simbi,RW2413,Kabusanza,RW241303
+409,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Simbi,RW2413,Mugobore,RW241304
+410,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Simbi,RW2413,Nyangazi,RW241305
+498,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Gatovu,RW251603
+496,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Buhoro,RW251601
+497,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Gasarenda,RW251602
+499,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Kaganza,RW251604
+500,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Nkumbure,RW251605
+501,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Tare,RW2516,Nyamigina,RW251606
+413,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Tumba,RW2414,Gitwa,RW241403
+411,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Tumba,RW2414,Cyarwa,RW241401
+412,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Tumba,RW2414,Cyimana,RW241402
+414,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Tumba,RW2414,Mpare,RW241404
+415,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Huye,RW24,Tumba,RW2414,Rango b,RW241405
+507,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Rugogwe,RW251706
+502,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Bigumira,RW251701
+503,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Gahira,RW251702
+504,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Kibyagira,RW251703
+505,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Mudasomwa,RW251704
+506,Rwanda,Rwanda (le),U Rwanda,Amajyepfo,RW2,Nyamagabe,RW25,Uwinkingi,RW2517,Munyege,RW251705
+908,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Kora,RW340104
+910,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Rega,RW340106
+905,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Arusha,RW340101
+906,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Basumba,RW340102
+907,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Kijote,RW340103
+909,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Bigogwe,RW3401,Muhe,RW340105
+777,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Boneza,RW3201,Remera,RW320104
+775,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Boneza,RW3201,Kabihogo,RW320102
+776,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Boneza,RW3201,Nkira,RW320103
+827,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Buringo,RW330101
+828,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Butaka,RW330102
+829,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Hehu,RW330103
+830,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Kabumba,RW330104
+831,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Mutovu,RW330105
+832,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Nsherima,RW330106
+833,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Bugeshi,RW3301,Rusiza,RW330107
+835,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Gasiza,RW330202
+834,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Gacurabwenge,RW330201
+836,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Gihonga,RW330203
+837,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Kageshi,RW330204
+838,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Makoro,RW330205
+839,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Nyacyonga,RW330206
+840,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rubavu,RW33,Busasamana,RW3302,Rusura,RW330207
+977,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Bwira,RW3501,Bungwe,RW350101
+978,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Bwira,RW3501,Cyahafi,RW350102
+979,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Bwira,RW3501,Gashubi,RW350103
+980,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Bwira,RW3501,Kabarondo,RW350104
+981,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Bwira,RW3501,Ruhindage,RW350105
+688,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Gasura,RW310102
+689,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Gitarama,RW310103
+690,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Kayenzi,RW310104
+687,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Burunga,RW310101
+691,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Kibuye,RW310105
+692,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Kiniha,RW310106
+693,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Bwishyura,RW3101,Nyarusazi,RW310107
+841,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Busigari,RW330301
+842,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Cyanzarwe,RW330302
+843,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Gora,RW330303
+844,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Kinyanzovu,RW330304
+845,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Makurizo,RW330305
+846,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Rwangara,RW330306
+847,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Rwanzekuma,RW330307
+848,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Cyanzarwe,RW3303,Ryabizige,RW330308
+696,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gashari,RW3102,Mwendo,RW310203
+695,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gashari,RW3102,Musasa,RW310202
+697,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gashari,RW3102,Rugobagoba,RW310204
+694,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gashari,RW3102,Birambo,RW310201
+698,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gashari,RW3102,Tongati,RW310205
+985,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Karambo,RW350204
+986,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Ruhanga,RW350205
+982,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Cyome,RW350201
+983,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Gatsibo,RW350202
+984,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Kamasiga,RW350203
+987,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Gatumba,RW3502,Rusumo,RW350206
+781,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Murambi,RW320204
+780,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Mataba,RW320203
+782,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Shyembe,RW320206
+778,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Bugina,RW320201
+779,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Congo-nil,RW320202
+783,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Gihango,RW3202,Teba,RW320207
+851,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Kivumu,RW330403
+849,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Amahoro,RW330401
+850,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Bugoyi,RW330402
+852,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Mbugangari,RW330404
+853,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Nengo,RW330405
+854,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Rubavu,RW330406
+855,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Gisenyi,RW3304,Umuganda,RW330407
+704,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Ngoma,RW310306
+701,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Kigarama,RW310303
+699,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Buhoro,RW310301
+702,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Munanira,RW310304
+703,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Musasa,RW310305
+700,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gishyita,RW3103,Cyanya,RW310302
+705,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Gasharu,RW310401
+706,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Gitega,RW310402
+709,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Munanira,RW310405
+711,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Ruhinga,RW310407
+707,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Kanunga,RW310403
+708,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Kirambo,RW310404
+710,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Nyamiringa,RW310406
+712,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Gitesi,RW3104,Rwariro,RW310408
+988,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Gatare,RW350301
+993,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Runyinya,RW350306
+989,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Gatega,RW350302
+990,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Kajinge,RW350303
+991,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Marantima,RW350304
+992,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Hindiro,RW3503,Rugendabari,RW350305
+914,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Kareba,RW340204
+911,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Bukinanyana,RW340201
+912,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Gasizi,RW340202
+916,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Rega,RW340206
+913,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Kabatezi,RW340203
+915,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jenda,RW3402,Nyirakigugu,RW340205
+921,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Kavumu,RW340305
+918,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Gasura,RW340302
+917,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Gasiza,RW340301
+919,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Gisizi,RW340303
+920,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Guriro,RW340304
+922,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Jomba,RW3403,Nyamitanzi,RW340306
+928,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Rugarama,RW340406
+923,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Batikoti,RW340401
+924,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Cyamvumba,RW340402
+925,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Gihorwe,RW340403
+926,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Myuga,RW340404
+927,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kabatwa,RW3404,Ngando,RW340405
+998,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Ngoma,RW350405
+997,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Mwendo,RW350404
+995,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Gaseke,RW350402
+996,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Kabaya,RW350403
+994,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Busunzu,RW350401
+999,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Ngororero,RW35,Kabaya,RW3504,Nyenyeri,RW350406
+857,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Karambo,RW330502
+856,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Kamuhoza,RW330501
+858,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Mahoko,RW330503
+859,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Musabike,RW330504
+860,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Rusongati,RW330506
+861,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanama,RW3305,Yungwe,RW330507
+862,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Kanyirabigogo,RW330601
+863,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Kirerema,RW330602
+864,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Muramba,RW330603
+865,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Nyamikongi,RW330604
+866,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Nyamirango,RW330605
+867,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Kanzenze,RW3306,Nyaruteme,RW330606
+929,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Busoro,RW340501
+931,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Gatagara,RW340503
+934,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Karengera,RW340506
+930,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Cyamabuye,RW340502
+932,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Gihirwa,RW340504
+933,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Karago,RW3405,Kadahenda,RW340505
+785,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kigeyo,RW3203,Rukaragata,RW320304
+784,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kigeyo,RW3203,Nyagahinika,RW320303
+935,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Gatovu,RW340601
+937,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Nyagisozi,RW340603
+938,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Nyamugari,RW340604
+936,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Kintobo,RW340602
+939,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Rukondo,RW340605
+940,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Kintobo,RW3406,Ryinyo,RW340606
+788,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kivumu,RW3204,Kabere,RW320403
+790,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kivumu,RW3204,Nganzo,RW320406
+786,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kivumu,RW3204,Bunyoni,RW320401
+787,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kivumu,RW3204,Bunyunju,RW320402
+789,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Kivumu,RW3204,Kabujenje,RW320404
+792,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Manihira,RW3205,Muyira,RW320502
+791,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Manihira,RW3205,Haniro,RW320501
+793,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Manihira,RW3205,Tangabo,RW320503
+715,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mubuga,RW3105,Nyagatovu,RW310503
+713,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mubuga,RW3105,Kagabiro,RW310501
+714,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mubuga,RW3105,Murangara,RW310502
+716,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mubuga,RW3105,Ryaruhanga,RW310504
+868,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Bihungwe,RW330701
+869,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Kanyundo,RW330702
+870,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Micinyiro,RW330703
+871,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Mirindi,RW330704
+872,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Ndoranyi,RW330705
+873,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Rungu,RW330706
+874,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Mudende,RW3307,Rwanyakayaga,RW330707
+941,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Gasizi,RW340701
+942,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Jaba,RW340702
+943,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Kanyove,RW340703
+944,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Rubaya,RW340704
+945,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Rugeshi,RW340705
+946,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Rukoma,RW340706
+947,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Mukamira,RW3407,Rurengeri,RW340707
+794,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Kabuga,RW320601
+798,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Karambo,RW320605
+799,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Mwendo,RW320606
+795,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Kagano,RW320602
+796,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Kageyo,RW320603
+797,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Mukura,RW3206,Kagusa,RW320604
+717,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murambi,RW3106,Mubuga,RW310601
+718,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murambi,RW3106,Muhororo,RW310602
+721,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murambi,RW3106,Shyembe,RW310605
+720,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murambi,RW3106,Nyarunyinya,RW310604
+719,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murambi,RW3106,Nkoto,RW310603
+948,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Gisizi,RW340801
+951,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Nkomane,RW340804
+949,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Mulinga,RW340802
+950,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Mwiyanike,RW340803
+952,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Nyamasheke,RW340805
+953,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Muringa,RW3408,Rwantobo,RW340806
+800,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Murunda,RW3207,Kirwa,RW320701
+801,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Murunda,RW3207,Mburamazi,RW320702
+802,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Murunda,RW3207,Rugeyo,RW320703
+803,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Murunda,RW3207,Twabugezi,RW320704
+725,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Kareba,RW310704
+723,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Kabaya,RW310702
+722,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Bukiro,RW310701
+724,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Kamina,RW310703
+726,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Nyamushishi,RW310705
+727,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Murundi,RW3107,Nzaratsi,RW310706
+804,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Musasa,RW3208,Gisiza,RW320802
+805,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushonyi,RW3209,Biruyi,RW320901
+806,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushonyi,RW3209,Magaba,RW320903
+807,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushonyi,RW3209,Rurara,RW320904
+810,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushubati,RW3210,Gitwa,RW321003
+808,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushubati,RW3210,Bumba,RW321001
+809,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushubati,RW3210,Cyarusera,RW321002
+811,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Mushubati,RW3210,Mageragere,RW321004
+729,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Gasharu,RW310802
+728,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Byogo,RW310801
+730,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Gisayura,RW310803
+731,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Kanyege,RW310804
+732,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Kinyonzwe,RW310805
+733,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Murengezo,RW310806
+734,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Mutuntu,RW3108,Rwufi,RW310807
+815,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Nyabirasi,RW3211,Ngoma,RW321104
+814,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Nyabirasi,RW3211,Mubuga,RW321103
+813,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Nyabirasi,RW3211,Cyivugiza,RW321102
+816,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Nyabirasi,RW3211,Terimbere,RW321105
+812,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Nyabirasi,RW3211,Busuku,RW321101
+876,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyakiriba,RW3308,Gikombe,RW330802
+875,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyakiriba,RW3308,Bisizi,RW330801
+877,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyakiriba,RW3308,Kanyefurwe,RW330803
+878,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyakiriba,RW3308,Nyarushyamba,RW330804
+884,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Rubona,RW330906
+883,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Munanira,RW330905
+880,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Busoro,RW330902
+879,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Burushya,RW330901
+881,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Kinigi,RW330903
+882,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyamyumba,RW3309,Kiraga,RW330904
+886,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Gatovu,RW331002
+887,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Kigarama,RW331004
+889,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Nyundo,RW331006
+890,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Terimbere,RW331007
+885,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Bahimba,RW331001
+888,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Nyundo,RW3310,Mukondo,RW331005
+958,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Nyundo,RW340905
+955,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Guriro,RW340902
+954,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Birembo,RW340901
+956,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Kibisabo,RW340903
+957,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Mutaho,RW340904
+959,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rambura,RW3409,Rugamba,RW340906
+895,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Murambi,RW331105
+894,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Gikombe,RW331104
+891,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Buhaza,RW331101
+892,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Burinda,RW331102
+893,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Byahi,RW331103
+896,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Murara,RW331106
+897,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rubavu,RW3311,Rukoko,RW331107
+738,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Gitwa,RW310904
+740,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Mataba,RW310906
+739,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Kibirizi,RW310905
+735,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Bubazi,RW310901
+736,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Gacaca,RW310902
+737,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Gisanze,RW310903
+741,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Nyarugenge,RW310907
+742,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rubengera,RW3109,Ruragwe,RW310908
+746,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Kabuga,RW311004
+747,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Mubuga,RW311005
+744,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Gitega,RW311002
+745,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Gitovu,RW311003
+751,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Tyazo,RW311009
+743,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Gisiza,RW311001
+748,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Mucyimba,RW311006
+749,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Rufungo,RW311007
+750,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rugabano,RW3110,Rwungo,RW311008
+758,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Rubona,RW311107
+755,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Kivumu,RW311104
+759,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Rugobagoba,RW311108
+752,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Biguhu,RW311101
+753,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Kabingo,RW311102
+754,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Kinyovu,RW311103
+756,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Nyabikeri,RW311105
+757,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Ruganda,RW3111,Nyamugwagwa,RW311106
+965,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Tyazo,RW341006
+960,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Gakoro,RW341001
+961,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Marangara,RW341002
+962,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Nyagahondo,RW341003
+963,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Nyarutembe,RW341004
+964,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rugera,RW3410,Rurembo,RW341005
+902,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Rugerero,RW331205
+904,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Rwaza,RW331207
+898,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Basa,RW331201
+899,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Gisa,RW331202
+900,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Kabilizi,RW331203
+901,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Muhira,RW331204
+903,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rubavu,RW33,Rugerero,RW3312,Rushubi,RW331206
+819,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Kavumu,RW321203
+817,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Gatare,RW321201
+818,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Gihira,RW321202
+820,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Nyakarera,RW321204
+821,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Rugasa,RW321205
+822,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW2,Rutsiro,RW32,Ruhango,RW3212,Rundoyi,RW321206
+967,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rurembo,RW3411,Gitega,RW341102
+966,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rurembo,RW3411,Gahondo,RW341101
+970,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rurembo,RW3411,Rwaza,RW341106
+968,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rurembo,RW3411,Kirimbogo,RW341103
+969,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Rurembo,RW3411,Mwana,RW341105
+825,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Rusebeya,RW3213,Remera,RW321303
+823,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Rusebeya,RW3213,Kabona,RW321301
+824,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Rusebeya,RW3213,Mberi,RW321302
+826,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Rutsiro,RW32,Rusebeya,RW3213,Ruronde,RW321304
+763,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Munini,RW311204
+760,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Bigugu,RW311201
+761,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Bisesero,RW311202
+762,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Gasata,RW311203
+764,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Nyakamira,RW311205
+765,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Nyarusanga,RW311206
+766,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Rubazo,RW311207
+767,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Rwankuba,RW3112,Rubumba,RW311208
+974,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Mpinga,RW341204
+971,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Cyimanzovu,RW341201
+972,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Kanyamitana,RW341202
+973,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Kintarure,RW341203
+975,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Mutanda,RW341205
+976,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Nyabihu,RW34,Shyira,RW3412,Shaki,RW341206
+772,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Kavumu,RW311305
+773,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Murehe,RW311306
+768,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Bihumbe,RW311301
+769,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Gakuta,RW311302
+770,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Gisovu,RW311303
+771,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Gitabura,RW311304
+774,Rwanda,Rwanda (le),U Rwanda,Iburengerazuba,RW3,Karongi,RW31,Twumba,RW3113,Rutabi,RW311307
+50,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Ngara,RW120104
+52,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Nyabikenke,RW120106
+53,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Nyagasozi,RW120107
+47,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Kinyaga,RW120101
+48,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Musave,RW120102
+49,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Mvuzo,RW120103
+51,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Bumbogo,RW1201,Nkuzuzu,RW120105
+118,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Gahanga,RW130101
+119,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Kagasa,RW130102
+120,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Karembure,RW130103
+121,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Murinja,RW130104
+122,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Nunga,RW130105
+123,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gahanga,RW1301,Rwabutenge,RW130106
+125,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gatenga,RW1302,Karambo,RW130202
+126,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gatenga,RW1302,Nyanza,RW130203
+127,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gatenga,RW1302,Nyarurama,RW130204
+124,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gatenga,RW1302,Gatenga,RW130201
+56,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gatsata,RW1202,Nyamugari,RW120203
+55,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gatsata,RW1202,Nyamabuye,RW120202
+54,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gatsata,RW1202,Karuruma,RW120201
+61,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gikomero,RW1203,Murambi,RW120305
+57,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gikomero,RW1203,Gasagara,RW120301
+60,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gikomero,RW1203,Munini,RW120304
+58,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gikomero,RW1203,Gicaca,RW120302
+59,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gikomero,RW1203,Kibara,RW120303
+128,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gikondo,RW1303,Kagunga,RW130301
+129,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gikondo,RW1303,Kanserege,RW130302
+130,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Gikondo,RW1303,Kinunga,RW130303
+63,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gisozi,RW1204,Ruhango,RW120402
+62,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Gisozi,RW1204,Musezero,RW120401
+3,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Kigarama,RW110104
+5,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Kora,RW110106
+0,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Akabahizi,RW110101
+1,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Akabeza,RW110102
+2,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Gacyamo,RW110103
+4,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Gitega,RW1101,Kinyange,RW110105
+65,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jabana,RW1205,Bweramvura,RW120502
+67,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jabana,RW1205,Ngiryi,RW120505
+64,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jabana,RW1205,Akamatamu,RW120501
+66,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jabana,RW1205,Kidashya,RW120504
+73,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Nyakabungo,RW120606
+68,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Agateko,RW120601
+69,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Buhiza,RW120602
+70,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Muko,RW120603
+71,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Nkusi,RW120604
+72,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Nyabuliba,RW120605
+74,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Jali,RW1206,Nyamitanga,RW120607
+75,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kacyiru,RW1207,Kamatamu,RW120701
+76,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kacyiru,RW1207,Kamutwa,RW120702
+77,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kacyiru,RW1207,Kibaza,RW120703
+131,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kagarama,RW1304,Kanserege,RW130401
+132,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kagarama,RW1304,Muyange,RW130402
+133,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kagarama,RW1304,Rukatsa,RW130403
+136,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kanombe,RW1305,Karama,RW130503
+135,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kanombe,RW1305,Kabeza,RW130502
+134,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kanombe,RW1305,Busanza,RW130501
+137,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kanombe,RW1305,Rubirizi,RW130504
+8,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kanyinya,RW1102,Taba,RW110203
+6,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kanyinya,RW1102,Nyamweru,RW110201
+7,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kanyinya,RW1102,Nzove,RW110202
+141,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kicukiro,RW1306,Ngoma,RW130604
+138,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kicukiro,RW1306,Gasharu,RW130601
+139,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kicukiro,RW1306,Kagina,RW130602
+140,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kicukiro,RW1306,Kicukiro,RW130603
+10,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kigali,RW1103,Mwendo,RW110302
+13,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kigali,RW1103,Rwesero,RW110305
+11,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kigali,RW1103,Nyabugogo,RW110303
+9,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kigali,RW1103,Kigali,RW110301
+12,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kigali,RW1103,Ruriba,RW110304
+144,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kigarama,RW1307,Kigarama,RW130703
+145,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kigarama,RW1307,Nyarurama,RW130704
+146,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kigarama,RW1307,Rwampara,RW130705
+142,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kigarama,RW1307,Bwerankori,RW130701
+143,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Kigarama,RW1307,Karugira,RW130702
+78,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimihurura,RW1208,Kamukina,RW120801
+79,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimihurura,RW1208,Kimihurura,RW120802
+80,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimihurura,RW1208,Rugando,RW120803
+83,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimironko,RW1209,Nyagatovu,RW120903
+81,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimironko,RW1209,Bibare,RW120901
+82,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kimironko,RW1209,Kibagabaga,RW120902
+14,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kimisagara,RW1104,Kamuhoza,RW110401
+15,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kimisagara,RW1104,Katabaro,RW110402
+16,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Kimisagara,RW1104,Kimisagara,RW110403
+85,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kinyinya,RW1210,Gasharu,RW121002
+87,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kinyinya,RW1210,Murama,RW121004
+84,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kinyinya,RW1210,Gacuriro,RW121001
+86,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Kinyinya,RW1210,Kagugu,RW121003
+18,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Kavumu,RW110502
+19,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Mataba,RW110503
+17,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Kankuba,RW110501
+20,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Ntungamo,RW110504
+21,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Nyarufunzo,RW110505
+22,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Nyarurenzi,RW110506
+23,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Mageregere,RW1105,Runzenze,RW110507
+149,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Gako,RW130803
+147,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Ayabaraya,RW130801
+148,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Cyimo,RW130802
+150,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Gitaraga,RW130804
+151,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Mbabe,RW130805
+152,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Masaka,RW1308,Rusheshe,RW130806
+24,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Amahoro,RW110601
+26,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Kabeza,RW110603
+27,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Nyabugogo,RW110604
+25,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Kabasengerezi,RW110602
+28,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Rugenge,RW110605
+29,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Tetero,RW110606
+30,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Muhima,RW1106,Ubumwe,RW110607
+88,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Bwiza,RW121101
+90,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Kibenga,RW121103
+89,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Cyaruzinge,RW121102
+91,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Masoro,RW121104
+92,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Mukuyu,RW121105
+93,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Ndera,RW1211,Rudashya,RW121106
+94,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Butare,RW121201
+96,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Gasura,RW121203
+95,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Gasanze,RW121202
+97,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Gatunga,RW121204
+98,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Muremure,RW121205
+99,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Sha,RW121206
+100,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Nduba,RW1212,Shango,RW121207
+153,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Niboye,RW1309,Gatare,RW130901
+154,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Niboye,RW1309,Niboye,RW130902
+155,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Niboye,RW1309,Nyakabanda,RW130903
+31,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyakabanda,RW1107,Munanira i,RW110701
+32,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyakabanda,RW1107,Munanira ii,RW110702
+33,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyakabanda,RW1107,Nyakabanda i,RW110703
+34,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyakabanda,RW1107,Nyakabanda ii,RW110704
+36,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyamirambo,RW1108,Gasharu,RW110802
+38,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyamirambo,RW1108,Rugarama,RW110804
+35,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyamirambo,RW1108,Cyivugiza,RW110801
+37,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyamirambo,RW1108,Mumena,RW110803
+42,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyarugenge,RW1109,Rwampara,RW110904
+39,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyarugenge,RW1109,Agatare,RW110901
+40,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyarugenge,RW1109,Biryogo,RW110902
+41,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Nyarugenge,RW1109,Kiyovu,RW110903
+156,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Nyarugunga,RW1310,Kamashashi,RW131001
+157,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Nyarugunga,RW1310,Nonko,RW131002
+158,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Kicukiro,RW13,Nyarugunga,RW1310,Rwimbogo,RW131003
+101,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Remera,RW1213,Nyabisindu,RW121301
+102,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Remera,RW1213,Nyarutarama,RW121302
+103,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Remera,RW1213,Rukiri i,RW121303
+104,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Remera,RW1213,Rukiri ii,RW121304
+106,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Gasagara,RW121402
+111,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Ruhanga,RW121408
+105,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Bisenga,RW121401
+107,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Kabuga ii,RW121404
+108,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Kinyana,RW121405
+109,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Mbandazi,RW121406
+110,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rusororo,RW1214,Nyagahinga,RW121407
+116,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Kibenga,RW121505
+112,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Gasabo,RW121501
+113,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Indatemwa,RW121502
+114,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Kabaliza,RW121503
+115,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Kacyatwa,RW121504
+117,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Gasabo,RW12,Rutunga,RW1215,Kigabiro,RW121506
+43,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Rwezamenyo,RW1110,Kabuguru i,RW111001
+44,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Rwezamenyo,RW1110,Kabuguru ii,RW111002
+45,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Rwezamenyo,RW1110,Rwezamenyo i,RW111003
+46,Rwanda,Rwanda (le),U Rwanda,Umujyi wa Kigali,RW1,Nyarugenge,RW11,Rwezamenyo,RW1110,Rwezamenyo ii,RW111004
