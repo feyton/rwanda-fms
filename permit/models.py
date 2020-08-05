@@ -63,8 +63,8 @@ class Address(models.Model):
     province = models.ForeignKey(Province, on_delete=models.CASCADE)
     district = models.ForeignKey(District, on_delete=models.CASCADE)
     sector = models.ForeignKey(Sector, on_delete=models.CASCADE)
-    cell = models.ForeignKey(Cell, null=True, blank=True,
-                             one_delete=models.SET_NULL)
+    cell = models.ForeignKey(
+        Cell, null=True, blank=True, on_delete=models.SET_NULL)
     village = models.ForeignKey(
         Village, null=True, blank=True, on_delete=models.SET_NULL)
 

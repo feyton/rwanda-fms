@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from .models import TransportPermit
 from django.views.generic import View
 from .forms import AddPermitForm
-from .utils import render_to_pdf
+from .utils import render_to_pdf, generate_pdf_weasy
 from django.core.exceptions import PermissionDenied
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
@@ -38,6 +38,13 @@ def permit_detail(request, pk):
     data = permit
     return JsonResponse(data)
 
+
 def test_template(request):
     template = 'print/permit.html'
     return render(request, template)
+
+
+def generate_permit_pdf(request, *args, **kwargs):
+    template = 'print/permit.html'
+    context = {}
+    return generate_pdf_weasy(request, template, 'test', context)

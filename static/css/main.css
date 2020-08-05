@@ -4,7 +4,8 @@
 }
 
 @page {
-    size: letter;
+    size: A4;
+    margin: 0;
 }
 
 .bold {
@@ -33,6 +34,10 @@
     width: 50px;
     position: relative;
     left: 30px
+}
+
+.justify {
+    text-align: justify;
 }
 
 .page-wrapper {
@@ -79,8 +84,18 @@
     width: 100%;
 }
 
+.row div {
+    display: inline;
+    justify-content: space-between;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.row.center div {
+    text-align: center;
+    justify-content: center;
 }
 
 .space-around {
@@ -149,6 +164,14 @@ ul .no-decoration {
     padding-top: 3pt;
 }
 
+.pl-5 {
+    padding-left: 20px;
+}
+
+.mr-3 {
+    margin-right: 5px;
+}
+
 .mb-5 {
     margin-bottom: 20px;
 }
@@ -160,4 +183,70 @@ ul .no-decoration {
 h6 {
     padding: 0px;
     margin: 0px;
+}
+
+.transport .normal {
+    font-size: 10pt;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-30 {
+    width: 30;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+@media print {
+    table {
+        page-break-inside: avoid;
+    }
+    h1 {
+        page-break-before: always;
+    }
+    #pagecontents {
+        width: 100%;
+        border: 0px;
+    }
+}
+
+/* ICONS */
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
