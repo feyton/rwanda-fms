@@ -1,0 +1,39 @@
+{% load static %}
+
+<div class="card card-user">
+    <div class="image">
+        <img src="/static/img/bg.jpg" alt="..." width="100%" height="100%">
+    </div>
+    <div class="card-body">
+        <div class="author">
+            <h5>
+
+                {% if user.profile.image %}
+
+                <img class="avatar border-gray" src="{{user.profile.image.url}}"
+                    alt="{{user.get_full_name}} profile" id="profileImage">
+                {% else %}
+
+                <img class="avatar border-gray " src="/static/img/profile.png" alt="profile placeholder">
+
+                {% endif %}
+                <h5 class="title">
+                    {{ request.user.get_short_name }}
+                </h5>
+            </h5>
+        </div>
+        <p class="description text-center">
+            {{ user.profile.biography}}
+        </p>
+    </div>
+    <hr>
+    <div class="button-container">
+        <a href="{% url 'account_change_password'%}" class="btn btn-warning">
+            Change Password
+        </a>
+        OR
+        <a href="#" class="btn btn-danger" id="account_delete">
+            Delete account
+        </a>
+    </div>
+</div>

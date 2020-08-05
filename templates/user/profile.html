@@ -1,0 +1,223 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block title %} Profile Page {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<link rel="stylesheet" href="/static/css/cropper.min.css" class="css">
+{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="panel-header panel-header-sm">
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="title">Profile: {{ request.user.get_full_name }}</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="." enctype="multipart/form-data">
+                        {% csrf_token %}
+
+                        {% for field in p_form %}
+
+                        {% if field not in p_form.visible_fields %}
+                        {{field}}
+                        {% endif %}
+
+
+                        {% endfor %}
+
+                        <div class="row">
+                            <div class="col-md-5 pr-1">
+                                <div class="form-group">
+                                    <label>UserEmail (disabled)</label>
+                                    <input type="text" class="form-control" disabled="" placeholder="E-mail"
+                                        value="{{ request.user.email }}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 pr-1">
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    {% render_field u_form.first_name class="form-control"%}
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-1">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    {% render_field u_form.last_name class="form-control"%}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>About Me</label>
+                                    {% render_field p_form.biography class="form-control"%}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 pr-1">
+                                <div class="custom-file" id="image_input">
+                                    <input type="file" class="custom-file-input" name="image" id="id_image">
+                                    <label for="id_image" class="custom-file-label" id="image_label">Profile
+                                        Picture</label>
+                                </div>
+
+                                {% if user.profile.image %}
+
+                                <div class="custom-control custom-checkbox my-1 mr-sm-2" id="clear_id">
+                                    <br>
+                                    <input type="checkbox" name="image-clear" id="image-clear_id"
+                                        class="custom-control-input">
+                                    <label for="image-clear_id" class="custom-control-label">Remove Current
+                                        Image</label>
+                                </div>
+
+                                {% endif %}
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 pr-1">
+                                <input type="submit" value="Update" class="btn btn-info">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <!-- USER PROFILE VIEW -->
+            {% include 'includes/profile.html' %}
+            <!-- // USER PROFILE -->
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalCrop" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" height='30'>
+                <h4 class="modal-title text-center">Crop the photo</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body overflow-auto" style="max-height: 60%;">
+                <img src="" id="image" style="max-width: 100%;">
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group pull-left" role="group">
+                    <button type="button" class="btn btn-default js-zoom-in">
+                        <i class="fas fa-search-plus"></i>
+                    </button>
+                    <button type="button" class="btn btn-default js-zoom-out">
+                        <i class="fas fa-search-minus"></i>
+                    </button>
+                </div>
+
+                <button type="button" class="btn btn-info js-crop-and-upload">Crop and continue</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block extra_js %}
+<script src="/static/js/cropper.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#id_image").change(function () {
+            let filePath = $(this)[0].files[0].name;
+            $("#image_label").text(filePath);
+            $('#clear_id').hide();
+
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $("#image").attr("src", e.target.result);
+                //$("#profileImage").attr('src', e.target.result);
+                $("#modalCrop").modal("show");
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+        );
+
+        /* SCRIPTS TO HANDLE THE CROPPER BOX */
+        var $image = $("#image");
+        var cropBoxData;
+        var canvasData;
+        $("#modalCrop").on("shown.bs.modal", function () {
+            $image.cropper({
+                viewMode: 1,
+                aspectRatio: 1 / 1,
+                minCropBoxWidth: 200,
+                minCropBoxHeight: 200,
+                rotatable: false,
+
+                ready: function () {
+                    $image.cropper("setCanvasData", canvasData);
+                    $image.cropper("setCropBoxData", cropBoxData);
+                }
+            });
+        }).on("hidden.bs.modal", function () {
+            cropBoxData = $image.cropper("getCropBoxData");
+            canvasData = $image.cropper("getCanvasData");
+            $image.cropper("destroy");
+        });
+
+        $(".js-zoom-in").click(function () {
+            $image.cropper("zoom", 0.1);
+        });
+
+        $(".js-zoom-out").click(function () {
+            $image.cropper("zoom", -0.1);
+        });
+
+        /* SCRIPT TO COLLECT THE DATA AND POST TO THE SERVER */
+        $(".js-crop-and-upload").click(function () {
+            var cropData = $image.cropper("getData");
+            $("#id_x").val(cropData["x"]);
+            $("#id_y").val(cropData["y"]);
+            $("#id_height").val(cropData["height"]);
+            $("#id_width").val(cropData["width"]);
+            $("#modalCrop").modal("hide");
+
+            //$("#formUpload").submit();
+        });
+
+
+
+        $("#image-clear_id").change(function () {
+            if (this.checked) {
+                $('#image_input').hide(500);
+            } else {
+                $('#image_input').show(500)
+            }
+        });
+        $('#account_delete').click(function () {
+            let result = confirm('Are You Sure You Want to delete Your Accounts');
+            if (result == true) {
+                console.log('Go');
+            } else {
+                console.log('No');
+            }
+        })
+    })
+</script>
+{% endblock extra_js %}

@@ -1,0 +1,177 @@
+{% extends 'account/base.html' %}
+{% load widget_tweaks %}
+
+{% block title %}
+Register
+{% endblock title %}
+
+
+{% block content %}
+
+<!-- End Navbar -->
+<div class="wrapper wrapper-full-page ">
+
+    <div class="full-page register-page section-image" filter-color="black" data-image="/static/assets/img/bg16.jpg">
+
+        <div class="content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-5 ml-auto">
+                        <div class="info-area info-horizontal mt-5">
+                            <div class="icon icon-primary">
+                                <i class="now-ui-icons media-2_sound-wave"></i>
+                            </div>
+                            <div class="description">
+                                <h5 class="info-title">Marketing</h5>
+                                <p class="description">
+                                    We've created the marketing campaign of the website. It was a very interesting
+                                    collaboration.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-area info-horizontal">
+                            <div class="icon icon-primary">
+                                <i class="now-ui-icons media-1_button-pause"></i>
+                            </div>
+                            <div class="description">
+                                <h5 class="info-title">Fully Coded in HTML5</h5>
+                                <p class="description">
+                                    We've developed the website with HTML5 and CSS3. The client has access to the
+                                    code using GitHub.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-area info-horizontal">
+                            <div class="icon icon-info">
+                                <i class="now-ui-icons users_single-02"></i>
+                            </div>
+                            <div class="description">
+                                <h5 class="info-title">Built Audience</h5>
+                                <p class="description">
+                                    There is also a Fully Customizable CMS Admin Dashboard for this product.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mr-auto">
+                        <div class="card card-signup text-center">
+
+                            <form role="form" method="post" action="">
+
+                                {% csrf_token %}
+
+                                <div class="card-header ">
+                                    <h4 class="card-title">Register</h4>
+                                </div>
+                                <div class="card-body ">
+
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="now-ui-icons ui-1_email-85"></i>
+                                            </div>
+                                        </div>
+                                        {% render_field form.email class="form-control" %}
+                                    </div>
+
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="now-ui-icons  users_single-02"></i>
+                                            </div>
+                                        </div>
+                                        {% render_field form.first_name class="form-control" placeholder="First name"  %}
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="now-ui-icons  users_single-02"></i>
+                                            </div>
+                                        </div>
+                                        {% render_field form.last_name class="form-control" placeholder="Last name"  %}
+                                    </div>
+
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                            </div>
+                                        </div>
+                                        <input type="password" name="password1" placeholder="Password"
+                                            class="form-control" required id="id_password1">
+                                    </div>
+
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                            </div>
+                                        </div>
+                                        <input type="password" name="password2" placeholder="Password check"
+                                            class="form-control" required id="id_password2">
+                                    </div>
+
+                                </div>
+                                <div class="card-footer ">
+                                    <button type="submit" name="register" class="btn btn-primary my-4">Register</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <div class="">
+                            <div class="pull-left">
+                                <h6>
+                                    <a class="text-white" href="{% url 'account_login' %}" class="link">Login</a>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        {% include 'includes/footer.html' %}
+
+    </div>
+
+
+
+</div>
+{% endblock content %}
+
+
+{% block extra_js %}
+<script>
+    $(document).ready(function () {
+        $("#register_link").addClass('active');
+
+        {% if form.errors %}
+
+        {% for field in form %}
+        {% for error in field.errors %}
+        $.notify({
+            title: '<b>{{field.label|capfirst}}</b>',
+            message: '{{error|escape}}',
+        }, {
+            type: 'danger',
+            delay: 3000,
+
+        })
+        {% endfor %}
+        {% endfor %}
+        {% for error in form.non_field_errors %}
+        <p class="text-left">
+            {{ error| escape}}
+        </p>
+        {% endfor %}
+
+        {% endif %}
+
+    })
+</script>
+{% endblock extra_js %}

@@ -1,89 +1,92 @@
-<div class="sidebar" data-color="green">
-  <!-- Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow" -->
-  <div class="logo text-center">
-    <a href="" class="simple-text logo-normal">
-      <span class="text-primary font-weight-bold">DFMS</span>
-    </a>
-  </div>
-  <div class="sidebar-wrapper" id="sidebar-wrapper">
+{% load static %}
 
-    <ul class="nav">
+<div class="sidebar" data-color="blue">
 
-      {% if user.is_authenticated %}
+    <div class="logo text-center font-weight-bolder">
 
-      <li id="dashboard-menu">
-        <a href="/">
-          <i class="now-ui-icons business_bank"></i>
-          <p>Home</p>
+        <a href="/" class="simple-text logo-normal font-weight-bolder">
+            DFMS | Rulindo
         </a>
-      </li>
 
+    </div>
 
-      <li>
-        <a href="{% url 'transport-permit-view' %}">
-          <i class="now-ui-icons business_money-coins"></i>
-          <p>Transport Permit</p>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class="now-ui-icons business_briefcase-24"></i>
-          <p>Accounts</p>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class="now-ui-icons ui-1_bell-53"></i>
-          <p>Notifications</p>
-        </a>
-      </li>
+    {% if user.is_authenticated %}
+    <div class="sidebar-wrapper" id="sidebar-wrapper">
 
-      {% if user.is_staff %}
-      <li>
-        <a data-toggle="collapse" href="#componentsExamples">
-          <i class="now-ui-icons business_chart-bar-32"></i>
-          <p>
-            Management
-            <b class="caret"></b>
-          </p>
-        </a>
-        <div class="collapse " id="componentsExamples">
-          <ul class="nav">
-            <li>
-              <a href="">
-                <span class="sidebar-mini-icon">A</span>
-                <span class="sidebar-normal"> Assets </span>
-              </a>
+        <ul class="nav">
+            <li class=" active" id="dashboard-menu">
+                <a href="{% url 'home' %}">
+                    <i class="now-ui-icons design_app"></i>
+                    <p>Dashboard</p>
+                </a>
             </li>
             <li>
-              <a href="">
-                <span class="sidebar-mini-icon">I</span>
-                <span class="sidebar-normal"> Inventory </span>
-              </a>
+                <a data-toggle="collapse" href="#pagesExamples">
+                    <i class="now-ui-icons design_image"></i>
+                    <p>
+                        Management
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse " id="pagesExamples">
+                    <ul class="nav">
+
+
+
+                        <li>
+                            <a href="/page-lock.html">
+                                <span class="sidebar-mini-icon">LS</span>
+                                <span class="sidebar-normal"> Lock Screen </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
             </li>
-
-
-          </ul>
-        </div>
-      </li>
-      {% endif %}
-      <li id="account_link_auth">
-        <a href="">
-          <i class="now-ui-icons users_single-02"></i>
-          <p>User Profile</p>
-        </a>
-      </li>
-
-      <li>
-        <a href="{% url 'account_logout' %}">
-          <i class="now-ui-icons media-1_button-power"></i>
-          <p class="text-danger font-weight-bolder">Logout</p>
-        </a>
-      </li>
-
-      {% endif %}
-
-
-    </ul>
-  </div>
+            <li>
+                <a data-toggle="collapse" href="#formsExamples">
+                    <i class="now-ui-icons files_single-copy-04"></i>
+                    <p>
+                        Forms
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse " id="formsExamples">
+                    <ul class="nav">
+                        <li>
+                            <a href="/forms-regular.html">
+                                <span class="sidebar-mini-icon">RF</span>
+                                <span class="sidebar-normal"> Regular Forms </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/forms-extended.html">
+                                <span class="sidebar-mini-icon">EF</span>
+                                <span class="sidebar-normal"> Extended Forms </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/forms-validation.html">
+                                <span class="sidebar-mini-icon">V</span>
+                                <span class="sidebar-normal"> Validation Forms </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/forms-wizard.html">
+                                <span class="sidebar-mini-icon">W</span>
+                                <span class="sidebar-normal"> Wizard </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="{% url 'account_logout' %}">
+                    <i class="now-ui-icons sport_user-run"></i>
+                    <p>Logout</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    {% endif %}
 </div>

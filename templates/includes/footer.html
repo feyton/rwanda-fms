@@ -1,12 +1,21 @@
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="container-fluid text-center">
-
-            &copy;{% now "Y" %} <a href="">Money Manager Team |</a>
-            Powered by <a href="https://www.feyton.co.rw" target="_blank">Feyton Inc</a>
-  
+<footer class="footer">
+    <div class=" container-fluid ">
+        <nav>
+            <ul>
+                <li>
+                    <a href="{% url 'home' %}">
+                        Feyton Inc
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+            &copy;
+            <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>
+            <a href="https://feyton.co.rw">Fahrer</a>.
+            Coded in Django by Feyton
         </div>
-        </div>
-      </footer>
-
+    </div>
+</footer>

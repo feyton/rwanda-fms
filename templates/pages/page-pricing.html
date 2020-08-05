@@ -1,0 +1,254 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="/static/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>
+        Dashboard |Pricing
+    </title>
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+        name="viewport">
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="/static/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/assets/css/now-ui-dashboard.css" rel="stylesheet">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="/static/assets/demo/demo.css" rel="stylesheet">
+
+    <!-- Specific Page CSS goes HERE  -->
+    <style>
+        .pricing-page {
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body class="  pricing-page  ">
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+        <div class="container-fluid">
+            <div class="navbar-wrapper">
+                <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar navbar-kebab"></span>
+                <span class="navbar-toggler-bar navbar-kebab"></span>
+                <span class="navbar-toggler-bar navbar-kebab"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <ul class="navbar-nav">
+
+                    {% if not user.is_authenticated %}
+
+
+
+
+                    <li class="nav-item ">
+                        <a href="{% url 'account_signup' %}" class="nav-link">
+                            <i class="now-ui-icons tech_mobile"></i> Register
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a href="{% url 'account_login' %}" class="nav-link">
+                            <i class="now-ui-icons users_circle-08"></i> Login
+                        </a>
+                    </li>
+                    {% else %}
+                    {% if user.is_staff %}
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'admin:index' %}">
+                            <i class="now-ui-icons media-2_sound-wave"></i>
+                            <p>
+                                <span class="d-lg-none d-md-block">Stats</span>
+                            </p>
+                        </a>
+                    </li>
+                    {% endif %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="now-ui-icons users_single-02"></i>
+                            <p>
+                                <span class="d-lg-none d-md-block">Profile</span>
+                            </p>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{% url 'user-profile' %}">Profile</a>
+                            <a class="dropdown-item" href="{% url 'account_logout' %}">Logout</a>
+                        </div>
+                    </li>
+
+                    {% endif %}
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- End Navbar -->
+    <div class="wrapper wrapper-full-page ">
+
+
+
+        <div class="full-page pricing-page section-image" data-image="/static/img/bg.jpg">
+
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ml-auto mr-auto text-center">
+                            <h2 class="title">Pick the best plan for you</h2>
+                            <h5 class="description">You have Free Unlimited Updates and Premium Support on each package.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card card-pricing card-plain">
+                                <h6 class="card-category"> Bravo Pack</h6>
+                                <div class="card-body">
+                                    <div class="card-icon icon-warning ">
+                                        <i class="now-ui-icons media-1_button-power"></i>
+                                    </div>
+                                    <h3 class="card-title">10$</h3>
+                                    <ul>
+                                        <li>Complete documentation</li>
+                                        <li>Working materials in Sketch</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#pablo" class="btn btn-round btn-neutral btn-warning">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card card-pricing ">
+                                <h6 class="card-category"> Alpha Pack</h6>
+                                <div class="card-body">
+                                    <div class="card-icon icon-primary ">
+                                        <i class="now-ui-icons objects_diamond"></i>
+                                    </div>
+                                    <h3 class="card-title">69$</h3>
+                                    <ul>
+                                        <li>Working materials in EPS</li>
+                                        <li>6 months access to the library</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#pablo" class="btn btn-round btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card card-pricing card-plain">
+                                <h6 class="card-category"> Charlie Pack</h6>
+                                <div class="card-body">
+                                    <div class="card-icon icon-success ">
+                                        <i class="now-ui-icons media-2_sound-wave"></i>
+                                    </div>
+                                    <h3 class="card-title">69$</h3>
+                                    <ul>
+                                        <li>Working materials in PSD</li>
+                                        <li>1 year access to the library</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#pablo" class="btn btn-round btn-neutral btn-success">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card card-pricing card-plain">
+                                <h6 class="card-category"> Extra Pack</h6>
+                                <div class="card-body">
+                                    <div class="card-icon icon-danger ">
+                                        <i class="now-ui-icons education_atom"></i>
+                                    </div>
+                                    <h3 class="card-title">159$</h3>
+                                    <ul>
+                                        <li>Complete documentation</li>
+                                        <li>2GB cloud storage</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#pablo" class="btn btn-round btn-neutral btn-danger">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {% include 'includes/footer.html' %}
+
+
+            <div class="full-page-background" style="background-image: url(/static/assets/img/bg15.jpg) "></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!--   Core JS Files   -->
+    <script src="/static/assets/js/core/jquery.min.js"></script>
+    <script src="/static/assets/js/core/popper.min.js"></script>
+    <script src="/static/assets/js/core/bootstrap.min.js"></script>
+    <script src="/static/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="/static/assets/js/now-ui-dashboard.min.js" type="text/javascript"></script>
+    <!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+    <script src="/static/assets/demo/demo.js"></script>
+
+
+    <!-- Specific Page JS goes HERE  -->
+
+
+    <script>
+        $(document).ready(function () {
+            demo.checkFullPageBackgroundImage();
+            
+            isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
+            if (isWindows) {
+                var ps = new PerfectScrollbar('.pricing-page');
+                $('html').addClass('perfect-scrollbar-on');
+
+            } else {
+                $('html').addClass('perfect-scrollbar-off');
+
+            };
+
+
+
+
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>

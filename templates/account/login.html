@@ -1,0 +1,129 @@
+{% extends 'account/base.html' %}
+{% load widget_tweaks %}
+{% block title %}
+Login
+{% endblock title %}
+{% block extra_css %}
+ <style>
+     #wrapper-login {
+         position: relative;
+     }
+ </style>
+{% endblock extra_css %}
+
+
+{% block content %}
+
+<!-- End Navbar -->
+<div class="wrapper wrapper-full-page ps ps--active-y">
+    <div class="full-page login-page section-image" filter-color="black" data-image="/static/img/bg.jpg">
+
+        <div class="content">
+            <div class="container">
+
+                <div class="col-md-4 ml-auto mr-auto">
+
+                    <form role="form" method="post" action="{% url 'account_login' %}">
+
+                        {% csrf_token %}
+
+                        <div class="card card-login card-plain">
+                            <div class="card-header ">
+
+                                <div class="logo-container">
+                                    <img src="/static/img/favicon.png" alt="">
+                                </div>
+
+                                <div class="text-center">
+
+
+                                    <span class="text-white">
+                                        Use existing account
+                                        <br />
+                                        OR <a href="{% url 'account_signup' %}">Register</a>
+                                    </span>
+
+
+                                </div>
+
+                            </div>
+                            <div class="card-body ">
+                                <div class="input-group no-border form-control-lg">
+                                    <span class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="now-ui-icons users_single-02"></i>
+                                        </div>
+                                    </span>
+                                    {% render_field form.login class="form-control" %}
+                                </div>
+
+                                <div class="input-group no-border form-control-lg">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                        </div>
+                                    </div>
+                                    {% render_field form.password class="form-control" %}
+                                </div>
+                            </div>
+                            <div class="card-footer ">
+
+                                <button type="submit" class="btn btn-primary btn-round btn-lg btn-block mb-3">Login</button>
+
+                                <div class="pull-left">
+                                    <h6>
+                                        <a href="{% url 'account_signup' %}" class="link footer-link">Create
+                                            Account</a>
+                                    </h6>
+                                </div>
+                                <div class="pull-right">
+                                    <h6>
+                                        <a href="{% url 'account_reset_password' %}" class="link footer-link">Reset
+                                            Password</a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+        {% include 'includes/footer.html' %}
+
+
+    </div>
+
+
+
+</div>
+
+{% endblock content %}
+
+
+{% block extra_js %}
+<script>
+    $(document).ready(function () {
+        $("#login_link").addClass('active');
+        {% if form.errors %}
+
+        {% for field in form %}
+        {% for error in field.errors %}
+        $.notify({
+            title: '<b>{{field.label|capfirst}}</b>',
+            message: '{{error|escape}}',
+        }, {
+            type: 'danger',
+            delay: 3000,
+
+        });
+        {% endfor %}
+        {% endfor %}
+        {% endif%}
+
+
+    })
+</script>
+{% endblock extra_js %}
