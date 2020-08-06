@@ -24,19 +24,43 @@
                 <a data-toggle="collapse" href="#pagesExamples">
                     <i class="now-ui-icons design_image"></i>
                     <p>
-                        Management
+                        Permits
                         <b class="caret"></b>
                     </p>
                 </a>
                 <div class="collapse " id="pagesExamples">
                     <ul class="nav">
 
-
-
                         <li>
-                            <a href="/page-lock.html">
-                                <span class="sidebar-mini-icon">LS</span>
-                                <span class="sidebar-normal"> Lock Screen </span>
+                            <a href="{% url 'hp-view' %}">
+                                <span class="sidebar-mini-icon">HP</span>
+                                <span class="sidebar-normal"> Harvesting Permits </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'transport-permit-view' %}">
+                                <span class="sidebar-mini-icon">TP</span>
+                                <span class="sidebar-normal"> Transportation Permits </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a data-toggle="collapse" href="#user">
+                    <i class="now-ui-icons files_single-copy-04"></i>
+                    <p>
+                        User
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse " id="user">
+                    <ul class="nav">
+                        <li>
+                            <a href="{% url 'user-profile' %}">
+                                <span class="sidebar-mini-icon">PR</span>
+                                <span class="sidebar-normal"> Profile </span>
                             </a>
                         </li>
 

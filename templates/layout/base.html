@@ -3,48 +3,50 @@
 <html lang="en" class="perfect-scrollbar-on">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/favicon.png">
-    <link rel="icon" type="image/png" href="/static/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/img/favicon.jpg">
+  <link rel="icon" type="image/png" href="/static/img/favicon.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Dashboard | {% block title %} Home{% endblock title %}</title>
+  <title>DFMS | {% block title %} Home{% endblock title %}</title>
 
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
-        name="viewport">
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link rel="stylesheet" href="/static/assets/css/all.min.css">
-    <!-- CSS Files -->
-    <link href="/static/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/assets/css/now-ui-dashboard.css" rel="stylesheet">
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="/static/assets/demo/demo.css" rel="stylesheet">
-    {% block stylesheets %}
-    {% endblock stylesheets %}
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport">
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link rel="stylesheet" href="/static/assets/css/all.min.css">
+  <!-- CSS Files -->
+  <link href="/static/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/css/now-ui-dashboard.css" rel="stylesheet">
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="/static/assets/demo/demo.css" rel="stylesheet">
+  {% block stylesheets %}
+  {% endblock stylesheets %}
 
-    <!-- Specific Page CSS goes HERE  -->
+  <!-- Specific Page CSS goes HERE  -->
 
 
 </head>
 
 <body class="  ">
   <style>
-    #overlay{	
+    #overlay {
       position: fixed;
       top: 0;
       z-index: 3000;
       width: 100%;
-      height:100%;
+      height: 100%;
       display: none;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0, 0, 0, 0.6);
     }
+
     .cv-spinner {
       height: 100%;
       display: flex;
       justify-content: center;
-      align-items: center;  
+      align-items: center;
     }
+
     .spinner {
       width: 40px;
       height: 40px;
@@ -53,13 +55,15 @@
       border-radius: 50%;
       animation: sp-anime 0.8s infinite linear;
     }
+
     @keyframes sp-anime {
-      100% { 
-        transform: rotate(360deg); 
+      100% {
+        transform: rotate(360deg);
       }
     }
-    .is-hide{
-      display:none;
+
+    .is-hide {
+      display: none;
     }
   </style>
   <div id="overlay" class="is-hide">
@@ -68,81 +72,81 @@
     </div>
   </div>
 
-    <div class="wrapper ">
+  <div class="wrapper ">
 
 
-        {% include 'includes/sidebar.html' %}
+    {% include 'includes/sidebar.html' %}
 
 
-        <div class="main-panel ps ps--active-y" id="main-panel">
+    <div class="main-panel ps ps--active-y" id="main-panel">
 
 
-            <!-- Navbar -->
+      <!-- Navbar -->
 
-            {% include 'includes/navigation.html' %}
+      {% include 'includes/navigation.html' %}
 
-            <!-- End Navbar -->
+      <!-- End Navbar -->
 
-            {% block content %}
+      {% block content %}
 
-            {% endblock content %}
-
-
-
-
-
-            {% include 'includes/footer.html' %}
+      {% endblock content %}
 
 
 
-        </div>
+
+
+      {% include 'includes/footer.html' %}
+
+
 
     </div>
 
+  </div>
 
 
 
 
-    <!--   Core JS Files   -->
-    {% include 'includes/js.html' %}
 
-    <!-- Specific Page JS goes HERE  -->
+  <!--   Core JS Files   -->
+  {% include 'includes/js.html' %}
+
+  <!-- Specific Page JS goes HERE  -->
 
 
-    <script>
-        $(document).ready(function () {
-            // Javascript method's body can be found in assets/js/demos.js
-            demo.initDashboardPageCharts();
+  <script>
+    $(document).ready(function () {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
 
-            demo.initVectorMap();
+      demo.initVectorMap();
 
-        });
-    </script>
-      <script>
+    });
+  </script>
+  <script>
 
-    $(document).ajaxStart(function(){
+    $(document).ajaxStart(function () {
       $("#overlay").fadeIn(300);
-    }).ajaxComplete( function(){
+    }).ajaxComplete(function () {
       $("#overlay").fadeOut(300);
     });
   </script>
 
-    
-    <script>
-       {% if messages %}
+
+  <script>
+    {% if messages %}
 
     {% for message in messages %}
     $.notify({
       title: "<b>Message</b><br>",
-        message: '<strong>{{ message }}</strong>'
-           },
-        {
+      message: '<strong>{{ message }}</strong>'
+    },
+      {
                
                {% if message.tags %}
     type: "{{ message.tags }}",
-    {% else %}
+      {% else %}
     type: 'info',
-        {% endif %}
+      {% endif %}
     delay: 5000,
                    
            })
@@ -150,37 +154,37 @@
 
     {% endif %}</script>
 
-    <div class="jvectormap-tip"></div>
+  <div class="jvectormap-tip"></div>
 
-    <script>
-    $(document).ready(function() {
-        $(function () {
-            setNavigation();
+  <script>
+    $(document).ready(function () {
+      $(function () {
+        setNavigation();
+      });
+
+      function setNavigation() {
+        var path = window.location.pathname;
+        path = decodeURIComponent(path);
+
+        $(".nav li a").each(function () {
+          var href = $(this).attr('href');
+          console.log(href.length);
+          console.log(path.substring(0, href.length))
+
+          if (path.substring(0, href.length) === href && href.length > 1) {
+            $(this).closest('li').addClass('active').parent().closest('li').addClass('active');
+            $(this).closest('.collapse').addClass('show');
+            $(this).closest('collapse').closest('li').addClass('active');
+            $("#dashboard-menu").removeClass('active');
+
+          }
         });
+      }
+    })
+  </script>
+  {% block extra_js %}
 
-        function setNavigation() {
-            var path = window.location.pathname;
-            path = decodeURIComponent(path);
-
-            $(".nav li a").each(function () {
-                var href = $(this).attr('href');
-                console.log(href.length);
-                console.log(path.substring(0, href.length))
-                
-                if (path.substring(0, href.length) === href && href.length >1) {
-                    $(this).closest('li').addClass('active').parent().closest('li').addClass('active');
-                    $(this).closest('.collapse').addClass('show');
-                    $(this).closest('collapse').closest('li').addClass('active');
-                    $("#dashboard-menu").removeClass('active');
-                    
-                } 
-            });
-        }
-        })
-    </script>
-    {% block extra_js %}
-
-    {% endblock extra_js %}
+  {% endblock extra_js %}
 
 </body>
 

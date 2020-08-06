@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'index',
     'user',
     'permit',
+    'widget_tweaks',
     # AllAuth
     'allauth',
     'allauth.account',
