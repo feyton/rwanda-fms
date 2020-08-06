@@ -1,7 +1,10 @@
 from django import forms
+from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 
-from .models import User, UserProfile
+from .models import Profile
+
+User = get_user_model()
 
 
 class CreateUserForm(UserCreationForm):
@@ -34,3 +37,18 @@ class CreateUserForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+
+class UpdateProfileForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['image', 'biography']
+        widgets = {
+            'biography': forms.Textarea(attrs={'rows': 3, 'cols': 60}),
+        }
+
+
+class UpdateUserForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['first_name', 'last_name']

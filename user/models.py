@@ -118,7 +118,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.first_name
 
 
-class UserProfile(models.Model):
+class Profile(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
     image = models.ImageField(upload_to='profile', blank=True, null=True)
     biography = models.TextField(blank=True, null=True)
@@ -129,7 +129,7 @@ class UserProfile(models.Model):
 
 def userprofile_receiver(sender, instance, created, *args, **kwargs):
     if created:
-        userprofile = UserProfile.objects.create(user=instance)
+        userprofile = Profile.objects.create(user=instance)
 
 
 post_save.connect(userprofile_receiver, sender=get_user_model())

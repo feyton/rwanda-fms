@@ -1,11 +1,12 @@
 from django.contrib import admin
-from .models import User, UserProfile
+from .models import User, Profile
 from django import forms
 
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 
 from django.contrib.auth.models import Group
+
 
 class AddUserForm(forms.ModelForm):
     """
@@ -53,7 +54,7 @@ class UpdateUserForm(forms.ModelForm):
         )
 
     def clean_password(self):
-# Password can't be changed in the admin
+        # Password can't be changed in the admin
         return self.initial["password"]
 
 
@@ -85,10 +86,8 @@ class UserAdmin(BaseUserAdmin):
     filter_horizontal = ()
 
 
-
 admin.site.register(User, UserAdmin)
-admin.site.register(UserProfile)
+admin.site.register(Profile)
 
 # UNREGISTERING GROUP
 admin.site.unregister(Group)
-
