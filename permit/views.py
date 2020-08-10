@@ -1,28 +1,36 @@
+import csv
+import os
+
+from django.conf import settings
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import PermissionDenied
 from django.http import JsonResponse
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.decorators import method_decorator
 from django.views.generic import View
 
-from .forms import AddPermitForm
-from .models import TransportPermit, HarvestingPermit, District, Village, Sector, Cell
+from .forms import (AddPermitForm, AddressForm, DestinationForm, OriginForm,
+                    RequestorForm, TransportVehicleForm)
+from .models import (Cell, District, HarvestingPermit, Province, Sector,
+                     TransportPermit, Village)
 from .utils import generate_pdf_weasy, render_to_pdf
-from .forms import AddressForm
+
+dirs = settings.BASE_DIR
 
 
 @method_decorator(login_required, name='dispatch')
-class PermitView(View):
+class TransportPermitView(View):
     def get(self, *args, **kwargs):
         context = {
             'permits': TransportPermit.objects.all(),
             'form': AddPermitForm
 
         }
-        return render(self.request, 'pages/permits.html', context)
+        return render(self.request, 'pages/tp-list.html', context)
 
 
-permit = PermitView.as_view()
+tp_permit = TransportPermitView.as_view()
 
 
 @login_required
@@ -46,10 +54,11 @@ def test_template(request):
     return render(request, template)
 
 
-def generate_permit_pdf(request, *args, **kwargs):
-    template = 'print/permit.html'
-    context = {}
-    return generate_pdf_weasy(request, template, 'test', context)
+def generate_tpermit_pdf(request, pk, *args, **kwargs):
+    permit = get_object_or_404(TransportPermit, pk=pk)
+    template = 'print/transport.html'
+    context = {'permit': permit}
+    return generate_pdf_weasy(request, template, permit.code, context)
 
 
 class HarvestingPermitView(View):
@@ -75,17 +84,56 @@ create_hp_view = CreateHPermitView.as_view()
 
 class CreateTPermitView(View):
     def get(self, *args, **kwargs):
-        form = AddPermitForm()
-        return render(self.request, 'forms/create-wizard.html', {'form': form})
+        context = {
+            'r_form': RequestorForm,
+            'd_form': DestinationForm,
+            'v_form': TransportVehicleForm,
+            'o_form': OriginForm,
+            'p_form': AddPermitForm
+        }
+        return render(self.request, 'forms/tp-create.html', context)
+
+    def post(self, *args, **kwargs):
+        r_form = RequestorForm(self.request.POST or None)
+        d_form = DestinationForm(self.request.POST or None)
+        v_form = TransportVehicleForm(self.request.POST or None)
+        o_form = OriginForm(self.request.POST or None)
+        p_form = AddPermitForm(self.request.POST or None)
+
+        if r_form.is_valid() and d_form.is_valid() and v_form.is_valid() and o_form.is_valid() and p_form.is_valid():
+            requestor = r_form.save()
+            destination = d_form.save()
+            origin = o_form.save()
+            vehicle = v_form.save()
+            permit = p_form.save(commit=False)
+            permit.requestor = requestor
+            permit.vehicle = vehicle
+            permit.origin = origin
+            permit.destination = destination
+            permit.prepared_by = self.request.user
+            permit.save()
+            messages.success(self.request, 'New permit created successfully')
+            return redirect(permit)
+
+        context = {
+            'r_form': r_form,
+            'd_form': d_form,
+            'v_form': v_form,
+            'o_form': o_form,
+            'p_form': p_form
+        }
+        return render(self.request, 'forms/tp-create.html', context)
 
 
-create_tp_view = CreateHPermitView.as_view()
+create_tp_view = CreateTPermitView.as_view()
 
 
 #
 def load_district(request):
     country_id = request.GET.get('province')
     d_id = request.GET.get('district')
+    s_id = request.GET.get('sector')
+    c_id = request.GET.get('cell')
     if country_id is not None:
         cities = District.objects.filter(
             province_id=country_id).order_by('name')
@@ -93,3 +141,50 @@ def load_district(request):
     if d_id is not None:
         sectors = Sector.objects.filter(district_id=d_id).order_by('name')
         return render(request, 'forms/dropdown.html', {'options': sectors})
+    if s_id is not None:
+        cells = Cell.objects.filter(sector_id=s_id)
+        return render(request, 'forms/dropdown.html', {'options': cells})
+    if c_id is not None:
+        cells = Village.objects.filter(cell_id=c_id)
+        return render(request, 'forms/dropdown.html', {'options': cells})
+
+
+def transport_permit_single_view(request, pk):
+    permit = get_object_or_404(TransportPermit, pk=pk)
+    context = {'permit': permit}
+    return render(request, 'permit/tp/single.html', context)
+
+
+def edit_tp_permit(request, pk):
+    permit = get_object_or_404(TransportPermit, pk=pk)
+    context = {
+        'r_form': RequestorForm(instance=permit.requestor),
+        'd_form': DestinationForm(instance=permit.destination),
+        'v_form': TransportVehicleForm(instance=permit.vehicle),
+        'o_form': OriginForm(instance=permit.origin),
+        'p_form': AddPermitForm(instance=permit)
+    }
+    return render(request, 'forms/tp-create.html', context)
+
+
+def export_csv():
+    import csv
+    reader = csv.DictReader(open(os.path.join(dirs, "static/adm.csv")))
+    for raw in reader:
+        province = raw['PROVINCE']
+        p_code = raw['PCODE'].strip('RW')
+        district = raw['DISTRICT']
+        d_code = raw['DCODE'].strip('RW')
+        sector = raw['SECTOR']
+        s_code = raw['SCODE'].strip('RW')
+        cell = raw['CELL']
+        c_code = raw['CCODE'].strip('RW')
+
+        prov, created = Province.objects.get_or_create(
+            code=p_code, name=province)
+        dist, created = District.objects.get_or_create(
+            code=d_code, name=district, province=prov)
+        sec, created = Sector.objects.get_or_create(
+            code=s_code, name=sector, district=dist)
+        cel, created = Cell.objects.get_or_create(
+            name=cell, code=c_code, sector=sec)

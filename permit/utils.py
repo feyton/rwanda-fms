@@ -1,3 +1,4 @@
+import csv
 import os
 import random
 from datetime import datetime
@@ -12,6 +13,8 @@ from reportlab.pdfgen import canvas
 from weasyprint import HTML
 from weasyprint.fonts import FontConfiguration
 from xhtml2pdf import pisa
+from django.conf import settings
+dirs = settings.BASE_DIR
 
 
 def permit_code():

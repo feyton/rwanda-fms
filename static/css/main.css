@@ -4,8 +4,12 @@
 }
 
 @page {
-    size: A4;
-    margin: 0;
+    size: Letter;
+    margin: 2.5cm;
+}
+
+.heading {
+    margin-bottom: 20px;
 }
 
 .bold {
@@ -13,11 +17,11 @@
 }
 
 .normal {
-    font-size: 8pt;
+    font-size: 10pt;
 }
 
 .header1 {
-    font-size: 8pt;
+    font-size: 10pt;
     font-weight: bold;
 }
 
@@ -41,11 +45,9 @@
 }
 
 .page-wrapper {
-    margin-top: 10mm;
-    width: 160mm;
-    height: 250mm;
+
     background-color: white;
-    margin-left: 10mm;
+
 }
 
 .underline {
@@ -114,7 +116,10 @@ table {
     width: 100%;
 }
 
-table, tr, th, td {
+table,
+tr,
+th,
+td {
     border: 1px solid black;
     font-size: 8pt;
     border-collapse: collapse;
@@ -213,9 +218,11 @@ h6 {
     table {
         page-break-inside: avoid;
     }
+
     h1 {
         page-break-before: always;
     }
+
     #pagecontents {
         width: 100%;
         border: 0px;

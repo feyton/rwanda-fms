@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transport Permit</title>
-    <link rel="stylesheet" href="/main.css" class="css">
+    <link rel="stylesheet" href="/static/css/main.css" class="css">
+    <style>
+        .normal {
+            font-size: 10pt;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,41 +19,55 @@
         <div class="heading">
             <div class="header1">REPUBULIKA Y'U RWANDA</div>
             <div class="header1">INTARA Y'AMAJYARUGURU</div>
-            <div class="symbol"><img src="/img/favicon.jpg" alt="" height="50px" width="50px"></div>
+            <div class="symbol"><img src="/static/img/favicon.jpg" alt="" height="50px" width="50px"></div>
             <div class="header1 underline">AKARERE KA RULINDO</div>
             <div class="header1">REF: <span class="capitalize italic">Ubuhinzi n'Umutungo Kamere</span></div>
         </div>
         <div class="head-title">
             <div class="header1 text-center underline">URUHUSHYA RWO GUTWARA</div>
-            <div class="row center">
+            <div class="row text-center">
                 <div class="header1 text-center underline">AMAKARA/IMBAHO/INKWI/IBITI</div>
-                <div class="normal text-center underline">No: 06/2020-2021</div>
+                <div class="normal text-center underline pl-10">No: {{permit.code}}</div>
             </div>
 
         </div>
         <div class="body">
-            <ol>
-                <li>AMAZINA: <span class="bold normal capitalize">Hafashimana fabrice</span></li>
-                <li>INDANGAMUNTU: <span class="bold normal">11997800987887</span></li>
+            <ol class="normal">
+                <!-- Usaba uruhushya -->
+                <li>AMAZINA: <span class="bold normal capitalize">{{permit.requestor.names}}</span></li>
+                <li>INDANGAMUNTU: <span class="bold normal">{{permit.requestor.nid}}</span></li>
                 <li>AHO ABARIZWA:
                     <ul class="w-60 pl-10">
-                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">AKAGALI:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">UMURENGE:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">AKARERE:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">INTARA:</span> <span class="bold">Nyagasozi</span></li>
+                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span
+                                class="bold">{{permit.requestor.r_village}}</span></li>
+                        <li><span class="w-50 pull-left">AKAGALI:</span> <span
+                                class="bold">{{permit.requestor.r_cell}}</span></li>
+                        <li><span class="w-50 pull-left">UMURENGE:</span> <span
+                                class="bold">{{permit.requestor.r_sector}}</span></li>
+                        <li><span class="w-50 pull-left">AKARERE:</span> <span
+                                class="bold">{{permit.requestor.r_district}}</span></li>
+                        <li><span class="w-50 pull-left">INTARA:</span> <span
+                                class="bold">{{permit.requestor.r_province}}</span></li>
                     </ul>
                 </li>
-                <li>INGANO Y'IBITWAWE: <span class="bold">Amakara (Imifuka 200)</span></li>
+                <!-- IBISABIRWA URUHUSHYA -->
+                <li>INGANO Y'IBITWAWE: <span class="bold">{{permit.category.get_name_display}}
+                        ({{permit.category.measure}} <span class="bold">{{permit.quantity}}</span>)</span></li>
                 <li>AHO BIVA:
+                    <!-- Origin location -->
                     <ul class="w-60 pl-10">
-                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">AKAGALI:</span> <span class="bold">Murambi</span></li>
-                        <li><span class="w-50 pull-left">UMURENGE:</span> <span class="bold">Nyagasozi</span></li>
-                        <li><span class="w-50 pull-left">AKARERE:</span> <span class="bold">Nyagasozi</span></li>
+                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span
+                                class="bold">{{permit.origin.l_village}}</span></li>
+                        <li><span class="w-50 pull-left">AKAGALI:</span> <span
+                                class="bold">{{permit.origin.l_cell}}</span></li>
+                        <li><span class="w-50 pull-left">UMURENGE:</span> <span
+                                class="bold">{{permit.origin.l_sector}}</span></li>
+                        <li><span class="w-50 pull-left">AKARERE:</span> <span
+                                class="bold">{{permit.origin.l_district}}</span></li>
                     </ul>
                 </li>
-                <li>AHO BIJYA: <span class="bold">Umujya wa Kigali</span></li>
+                <li>AHO BIJYA: <span class="bold">{{permit.destination.dest}}</span></li>
+                <!-- Imodoka izakoreshwa -->
                 <li>IMODOKA IZAKORESHWA: <span class="bold">FUSO</span>
                     <ul class="w-80 pl-10">
                         <li><span class="w-30 pull-left">No ZA PULAKI:</span> <span class="bold license">RAB 000
@@ -60,12 +80,13 @@
                                 class="bold nid">119978225462235</span></li>
                     </ul>
                 </li>
-                <li>IGIHE URUHUSHYA RUZAMARA: <span>Umunsi Umwe <span class="date">20/08/2020</span></span></li>
+                <li>IGIHE URUHUSHYA RUZAMARA: <span>Umunsi Umwe <span class="date">{{permit.start_date}} kugeza
+                            {{permit.end_date}}</span></span></li>
             </ol>
         </div>
 
         <div class="row p-1 normal">
-            Bikorewe i <strong>RULINDO</strong>, kuwa <strong>28/07/2020</strong>
+            Bikorewe i <strong>RULINDO</strong>, kuwa <strong>{%now "d m Y"%}</strong>
         </div>
         <div class="row pt-1 mb-5">
             <div class="w-50 pull-left">
@@ -75,7 +96,7 @@
                 <span class="bold underline normal ">Byemejwe na:</span>
             </div>
         </div>
-        <div class="row pt-3">
+        <div class="row pt-3" style="margin-top: 10px;">
             <div class="w-50 pull-left">
                 <h6 class="normal p-0 m-0">SALAMA Fides</h6>
                 <h6 class="normal capitalize">Umukozi ushinzwe amashyamba n'umutungo kamere mu karere ka Rulino
@@ -86,13 +107,15 @@
                 <h6 class="normal">Umuyobozi w'Akrere ka Rulindo</h6>
             </div>
         </div>
-        <div>
+        <div class="normal" style="margin-top: 10px;">
             <ul><span class="bold">ICYITONDERWA:</span>
-                <li class="pl-5">Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
-                <li class="pl-5">Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
-                <li class="pl-5">Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
-                <li class="pl-5">Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
-                <li class="pl-5">Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
+                <li class="pl-5"><i class="arrow right mr-3"></i>Uru ruhushya rukoreshwa kukintu kimwe gusa</li>
+                <li class="pl-5"><i class="arrow right mr-3"></i>Usaba uruhushya yerekana kopi y'uruhushya/impushya
+                    rwo/zo gutema</li>
+                <li class="pl-5"><i class="arrow right mr-3"></i>Uru ruhushya rwemerwa gusa iyo ari umwimerere
+                    (Original)</li>
+                <li class="pl-5"><i class="arrow right mr-3"></i>Uhawe uruhushya yiyemeje gukurikiza amategeko
+                    n'amabwiriza ariho mugihugu arbana n'ubusugire bw'amashyamba (Itegeko..)</li>
             </ul>
         </div>
     </div>

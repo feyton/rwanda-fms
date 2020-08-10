@@ -141,8 +141,7 @@
       message: '<strong>{{ message }}</strong>'
     },
       {
-               
-               {% if message.tags %}
+        {% if message.tags %}
     type: "{{ message.tags }}",
       {% else %}
     type: 'info',
@@ -168,8 +167,6 @@
 
         $(".nav li a").each(function () {
           var href = $(this).attr('href');
-          console.log(href.length);
-          console.log(path.substring(0, href.length))
 
           if (path.substring(0, href.length) === href && href.length > 1) {
             $(this).closest('li').addClass('active').parent().closest('li').addClass('active');

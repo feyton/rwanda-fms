@@ -1,0 +1,102 @@
+{% extends 'layout/base.html' %}
+
+
+
+{% block content %}
+<div class="panel-header panel-header-sm">
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card ">
+                <div class="card-header ">
+                    <h4 class="card-title">Uruhushya rwo gusarura nomero:
+                        <small class="description">{{permit.code}}</small>
+                    </h4>
+                </div>
+                <div class="card-body ">
+                    <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#link1" role="tablist">
+                                Usaba
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#link2" role="tablist">
+                                Ibisabirwa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#link3" role="tablist">
+                                Aho biva
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#link4" role="tablist">
+                                Aho bijya
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#link5" role="tablist">
+                                Uko bizatwarwa
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content tab-space">
+                        <div class="tab-pane active" id="link1">
+                            Collaboratively administrate empowered markets via plug-and-play networks.
+                            Dynamically procrastinate B2C users after installed base benefits.
+                            <br />
+                            <br /> Dramatically visualize customer directed convergence without
+                            revolutionary ROI.
+                        </div>
+                        <div class="tab-pane" id="link2">
+                            Efficiently unleash cross-media information without cross-media value. Quickly
+                            maximize timely deliverables for real-time schemas.
+                            <br />
+                            <br />Dramatically maintain clicks-and-mortar solutions without functional
+                            solutions.
+                        </div>
+                        <div class="tab-pane" id="link3">
+                            Completely synergize resource taxing relationships via premier niche markets.
+                            Professionally cultivate one-to-one customer service with robust ideas.
+                            <br />
+                            <br />Dynamically innovate resource-leveling customer service for state of the
+                            art customer service.
+                        </div>
+                        <div class="tab-pane" id="link4">
+                            Completely synergize resource taxing relationships via premier niche markets.
+                            Professionally cultivate one-to-one customer service with robust ideas.
+                            <br />
+                            <br />Dynamically innovate resource-leveling customer service for state of the
+                            art customer service.
+                        </div>
+                        <div class="tab-pane" id="link5">
+                            Completely synergize resource taxing relationships via premier niche markets.
+                            Professionally cultivate one-to-one customer service with robust ideas.
+                            <br />
+                            <br />Dynamically innovate resource-leveling customer service for state of the
+                            art customer service.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">Amahitamo</div>
+                <div class="card-body">
+                    <a href="{% url 'edit-tp-view' pk=permit.pk %}" class="btn btn-outline-info">Hindura</a>
+                    <a href="" class="btn btn-round btn-info">Emeza</a>
+                    <a href="" class="btn btn-round btn-info">Menyesha Uwasabye</a>
+                    <a href="{% url 'transport-permit-print' pk=permit.pk code=permit.code %}"
+                        class="btn btn-round btn-info">Sohora Mu Mashini</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1068,10 +1068,10 @@ demo = {
         }
       },
       highlight: function (element) {
-        $(element).closest('.input-group').removeClass('has-success').addClass('has-danger');
+        $(element).closest('.form-group').removeClass('has-success').addClass('has-danger');
       },
       success: function (element) {
-        $(element).closest('.input-group').removeClass('has-danger').addClass('has-success');
+        $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
       }
     });
 
@@ -1158,9 +1158,6 @@ demo = {
 
 
     // Prepare the preview for profile picture
-    $("#wizard-picture").change(function () {
-      readURL(this);
-    });
 
     $('[data-toggle="wizard-radio"]').click(function () {
       wizard = $(this).closest('.card-wizard');
