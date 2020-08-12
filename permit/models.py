@@ -110,7 +110,7 @@ class Requestor(models.Model):
     names = models.CharField(
         _('Amazina'), max_length=255, blank=False, null=False)
     nid = models.CharField(
-        _('Indangamuntu'), max_length=16, blank=True, null=True)
+        _('Indangamuntu'), max_length=21, blank=True, null=True)
     telephone = models.CharField(
         _('telephone'), max_length=15, blank=True, null=True)
     r_province = models.ForeignKey(
@@ -121,8 +121,11 @@ class Requestor(models.Model):
         Sector, on_delete=models.SET, null=True, verbose_name='Umurenge')
     r_cell = models.ForeignKey(
         Cell, on_delete=models.SET_NULL, null=True, verbose_name='Akagali')
-    r_village = models.ForeignKey(
-        Village, on_delete=models.SET_NULL, null=True, verbose_name='Umudugudu')
+    # r_village = models.ForeignKey(
+    #     Village, on_delete=models.SET_NULL, null=True, verbose_name='Umudugudu')
+
+    def __str__(self):
+        return self.names
 
 
 class TransportVehicle(models.Model):
@@ -150,8 +153,8 @@ class OriginLocation(models.Model):
         Sector, on_delete=models.CASCADE, verbose_name='Umurenge')
     l_cell = models.ForeignKey(
         Cell, null=True, on_delete=models.SET_NULL, verbose_name='Akagali')
-    l_village = models.ForeignKey(
-        Village, null=True, on_delete=models.SET_NULL, verbose_name='Umudugudu')
+    #l_village = models.ForeignKey(
+        #Village, null=True, on_delete=models.SET_NULL, verbose_name='Umudugudu')
 
     def __str__(self):
         return self.code
@@ -245,6 +248,8 @@ class TransportPermit(models.Model):
 
     def get_absolute_url(self):
         return reverse('tp-single-view', kwargs={'pk': self.pk})
+    def get_quantity(self):
+        return "%s (%s)" %(self.category.measure, self.quantity)
 
 
 class HarvestingPermit(models.Model):

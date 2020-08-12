@@ -1,8 +1,9 @@
 {% extends 'account/base.html' %}
+{% load static %}
 {% load widget_tweaks %}
 
 {% block title %}
-Register
+Kwiyandikisha
 {% endblock title %}
 
 
@@ -11,7 +12,7 @@ Register
 <!-- End Navbar -->
 <div class="wrapper wrapper-full-page ">
 
-    <div class="full-page register-page section-image" filter-color="black" data-image="/static/assets/img/bg16.jpg">
+    <div class="full-page register-page section-image" filter-color="black" data-image="/static/img/bg1.jpg">
 
         <div class="content">
             <div class="container">
@@ -23,10 +24,9 @@ Register
                                 <i class="now-ui-icons media-2_sound-wave"></i>
                             </div>
                             <div class="description">
-                                <h5 class="info-title">Marketing</h5>
+                                <h5 class="info-title">Harvesting Permits</h5>
                                 <p class="description">
-                                    We've created the marketing campaign of the website. It was a very interesting
-                                    collaboration.
+                                    This system will allow you to apply for a forest harvesting permit in your district completely online.
                                 </p>
                             </div>
                         </div>
@@ -35,10 +35,9 @@ Register
                                 <i class="now-ui-icons media-1_button-pause"></i>
                             </div>
                             <div class="description">
-                                <h5 class="info-title">Fully Coded in HTML5</h5>
+                                <h5 class="info-title">Transport Permit</h5>
                                 <p class="description">
-                                    We've developed the website with HTML5 and CSS3. The client has access to the
-                                    code using GitHub.
+                                    Fill the form, and your application will be submitted online. You will be contacted in a period less than 3 days of office work days
                                 </p>
                             </div>
                         </div>
@@ -47,9 +46,9 @@ Register
                                 <i class="now-ui-icons users_single-02"></i>
                             </div>
                             <div class="description">
-                                <h5 class="info-title">Built Audience</h5>
+                                <h5 class="info-title">Built For DFNROs</h5>
                                 <p class="description">
-                                    There is also a Fully Customizable CMS Admin Dashboard for this product.
+                                    This platform also provide neccessary tools for District Forestry Officers to manage and approve different permits. Not only that, they can share ideas too, with integrated chat.
                                 </p>
                             </div>
                         </div>
@@ -62,7 +61,7 @@ Register
                                 {% csrf_token %}
 
                                 <div class="card-header ">
-                                    <h4 class="card-title">Register</h4>
+                                    <h4 class="card-title">Iyandikishe Hano</h4>
                                 </div>
                                 <div class="card-body ">
 
@@ -114,7 +113,7 @@ Register
 
                                 </div>
                                 <div class="card-footer ">
-                                    <button type="submit" name="register" class="btn btn-primary my-4">Register</button>
+                                    <button type="submit" name="register" class="btn btn-primary my-4">Ohereza</button>
                                 </div>
 
                             </form>
@@ -123,7 +122,7 @@ Register
                         <div class="">
                             <div class="pull-left">
                                 <h6>
-                                    <a class="text-white" href="{% url 'account_login' %}" class="link">Login</a>
+                                    <a class="text-white" href="{% url 'account_login' %}" class="link">Injira</a>
                                 </h6>
                             </div>
 

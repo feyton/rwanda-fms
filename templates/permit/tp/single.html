@@ -1,20 +1,16 @@
-{% extends 'layout/base.html' %}
-
-
-
-{% block content %}
-<div class="panel-header panel-header-sm">
-</div>
+{% extends 'layout/base.html' %} {% block content %}
+<div class="panel-header panel-header-sm"></div>
 <div class="content">
     <div class="row">
         <div class="col-md-12">
-            <div class="card ">
-                <div class="card-header ">
-                    <h4 class="card-title">Uruhushya rwo gusarura nomero:
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">
+                        Uruhushya rwo gutwara nomero:
                         <small class="description">{{permit.code}}</small>
                     </h4>
                 </div>
-                <div class="card-body ">
+                <div class="card-body">
                     <ul class="nav nav-pills nav-pills-primary" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#link1" role="tablist">
@@ -44,39 +40,86 @@
                     </ul>
                     <div class="tab-content tab-space">
                         <div class="tab-pane active" id="link1">
-                            Collaboratively administrate empowered markets via plug-and-play networks.
-                            Dynamically procrastinate B2C users after installed base benefits.
-                            <br />
-                            <br /> Dramatically visualize customer directed convergence without
-                            revolutionary ROI.
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="title">Usaba</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            Amazina:
+                                        </div>
+                                        <div class="col-sm-6 font-weight-bolder text-capitalize">
+                                            {{permit.requestor}}
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            Indangamuntu:
+                                        </div>
+                                        <div class="col-sm-6 nid">
+                                            {{permit.requestor.nid}}
+                                        </div>
+                                    </div>
+                                    
+                                    {% if permit.requestor.telephone %}
+                                    <div class="row">
+                                        <div class="col-sm-6">Telephone</div>
+                                        <div class="col-sm-6">{{permit.requestor.telephone}}</div>
+                                    </div>{% endif %}
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="title">Address:</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6">Akagali</div>
+                                        <div class="col-sm-6">{{permit.requestor.r_cell}}</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">Umurenge</div>
+                                        <div class="col-sm-6">{{permit.requestor.r_sector}}</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">Akarere</div>
+                                        <div class="col-sm-6">{{permit.requestor.r_district}}</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane" id="link2">
-                            Efficiently unleash cross-media information without cross-media value. Quickly
-                            maximize timely deliverables for real-time schemas.
-                            <br />
-                            <br />Dramatically maintain clicks-and-mortar solutions without functional
-                            solutions.
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-sm-6">Ubwoko: </div>
+                                        <div class="col-sm-6">{{permit.category.get_name_display}}</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6"></div>
+                                        <div class="col-sm-6"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane" id="link3">
-                            Completely synergize resource taxing relationships via premier niche markets.
-                            Professionally cultivate one-to-one customer service with robust ideas.
+                            Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer
+                            service with robust ideas.
                             <br />
-                            <br />Dynamically innovate resource-leveling customer service for state of the
-                            art customer service.
+                            <br />Dynamically innovate resource-leveling customer service for
+                            state of the art customer service.
                         </div>
                         <div class="tab-pane" id="link4">
-                            Completely synergize resource taxing relationships via premier niche markets.
-                            Professionally cultivate one-to-one customer service with robust ideas.
+                            Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer
+                            service with robust ideas.
                             <br />
-                            <br />Dynamically innovate resource-leveling customer service for state of the
-                            art customer service.
+                            <br />Dynamically innovate resource-leveling customer service for
+                            state of the art customer service.
                         </div>
                         <div class="tab-pane" id="link5">
-                            Completely synergize resource taxing relationships via premier niche markets.
-                            Professionally cultivate one-to-one customer service with robust ideas.
+                            Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer
+                            service with robust ideas.
                             <br />
-                            <br />Dynamically innovate resource-leveling customer service for state of the
-                            art customer service.
+                            <br />Dynamically innovate resource-leveling customer service for
+                            state of the art customer service.
                         </div>
                     </div>
                 </div>
@@ -91,8 +134,6 @@
                     <a href="" class="btn btn-round btn-info">Menyesha Uwasabye</a>
                     <a href="{% url 'transport-permit-print' pk=permit.pk code=permit.code %}"
                         class="btn btn-round btn-info">Sohora Mu Mashini</a>
-
-
                 </div>
             </div>
         </div>

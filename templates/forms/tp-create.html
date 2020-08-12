@@ -240,6 +240,10 @@
                 todayBtn: "linked",
             });
         });
+        new Cleave('.nid-input', {
+            delimiters: [" "],
+            blocks: [1, 4, 1,7, 1, 2], 
+        }) 
 
     });
 </script>
@@ -249,7 +253,7 @@
         var countryId = $(this).val();
         $('#id_r_sector').val('');
         $('#id_r_cell').val('');
-        $('#id_r_village').val('');
+       // $('#id_r_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -265,7 +269,7 @@
         var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
         var ID = $(this).val();
         $('#id_r_cell').val('');
-        $('#id_r_village').val('');
+        //$('#id_r_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -280,7 +284,7 @@
     $("#id_r_sector").change(function () {
         var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
         var ID = $(this).val();
-        $('#id_r_village').val('');
+        //$('#id_r_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -292,20 +296,20 @@
             }
         });
     })
-    $("#id_r_cell").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
-        var ID = $(this).val();
+    //$("#id_r_cell").change(function () {
+       // var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+       // var ID = $(this).val();
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
-            data: {
-                'cell': ID       // add the country id to the GET parameters
-            },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_r_village").html(data); // replace the contents of the city input with the data that came from the server
-            }
-        });
-    })
+      //  $.ajax({                       // initialize an AJAX request
+      //      url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+       //     data: {
+         //       'cell': ID       // add the country id to the GET parameters
+          //  },
+         //   success: function (data) {   // `data` is the return of the `load_cities` view function
+          //      $("#id_r_village").html(data); // replace the contents of the city input with the data that came from the server
+         //   }
+       // });
+   // })
 
     //For new Origin Location
     $("#id_l_province").change(function () {
@@ -313,7 +317,7 @@
         var countryId = $(this).val();
         $('#id_l_sector').val('');
         $('#id_l_cell').val('');
-        $('#id_l_village').val('');
+        //$('#id_l_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -329,7 +333,7 @@
         var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
         var ID = $(this).val();
         $('#id_l_cell').val('');
-        $('#id_l_village').val('');
+        //$('#id_l_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -344,7 +348,7 @@
     $("#id_l_sector").change(function () {
         var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
         var ID = $(this).val();
-        $('#id_l_village').val('');
+        //$('#id_l_village').val('');
 
         $.ajax({                       // initialize an AJAX request
             url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
@@ -356,20 +360,20 @@
             }
         });
     })
-    $("#id_l_cell").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
-        var ID = $(this).val();
+    ///$("#id_l_cell").change(function () {
+        //var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        //var ID = $(this).val();
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
-            data: {
-                'cell': ID       // add the country id to the GET parameters
-            },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_l_village").html(data); // replace the contents of the city input with the data that came from the server
-            }
-        });
-    })
+        //$.ajax({                       // initialize an AJAX request
+         //   url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+         //   data: {
+         //       'cell': ID       // add the country id to the GET parameters
+         //   },
+            //success: function (data) {   // `data` is the return of the `load_cities` view function
+               // $("#id_l_village").html(data); // replace the contents of the city input with the data that came from the server
+            //}
+        //});
+    //})
 </script>
 
 {% endblock extra_js %}

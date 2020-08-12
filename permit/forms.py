@@ -43,13 +43,16 @@ class RequestorForm(forms.ModelForm):
     class Meta:
         model = Requestor
         exclude = ['address']
+        widgets = {
+            'nid': forms.TextInput(attrs={'class': 'nid-input'})
+        }
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(RequestorForm, self).__init__(*args, **kwargs)
         self.fields['r_district'].queryset = District.objects.none()
         self.fields['r_sector'].queryset = Sector.objects.none()
         self.fields['r_cell'].queryset = Cell.objects.none()
-        self.fields['r_village'].queryset = Village.objects.none()
+        #self.fields['r_village'].queryset = Village.objects.none()
 
         if 'r_province' in self.data:
             try:
@@ -81,16 +84,16 @@ class RequestorForm(forms.ModelForm):
         elif self.instance.pk:
             self.fields['r_cell'].queryset = self.instance.r_sector.cells.order_by(
                 'name')
-        if 'r_cell' in self.data:
-            try:
-                d_id = int(self.data.get('r_cell'))
-                self.fields['r_village'].queryset = Village.objects.filter(
-                    cell_id=d_id).order_by('name')
-            except (ValueError, TypeError):
-                pass
-        elif self.instance.pk:
-            self.fields['r_village'].queryset = self.instance.r_cell.villages.order_by(
-                'name')
+        # if 'r_cell' in self.data:
+        #     try:
+        #         d_id = int(self.data.get('r_cell'))
+        #         self.fields['r_village'].queryset = Village.objects.filter(
+        #             cell_id=d_id).order_by('name')
+        #     except (ValueError, TypeError):
+        #         pass
+        # elif self.instance.pk:
+        #     self.fields['r_village'].queryset = self.instance.r_cell.villages.order_by(
+        #         'name')
 
 
 class TransportVehicleForm(forms.ModelForm):
@@ -105,11 +108,11 @@ class OriginForm(forms.ModelForm):
         exclude = ['code']
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(OriginForm, self).__init__(*args, **kwargs)
         self.fields['l_district'].queryset = District.objects.none()
         self.fields['l_sector'].queryset = Sector.objects.none()
         self.fields['l_cell'].queryset = Cell.objects.none()
-        self.fields['l_village'].queryset = Village.objects.none()
+        #self.fields['l_village'].queryset = Village.objects.none()
 
         if 'l_province' in self.data:
             try:
@@ -141,16 +144,16 @@ class OriginForm(forms.ModelForm):
         elif self.instance.pk:
             self.fields['l_cell'].queryset = self.instance.l_sector.cells.order_by(
                 'name')
-        if 'l_cell' in self.data:
-            try:
-                d_id = int(self.data.get('l_cell'))
-                self.fields['l_village'].queryset = Village.objects.filter(
-                    cell_id=d_id).order_by('name')
-            except (ValueError, TypeError):
-                pass
-        elif self.instance.pk:
-            self.fields['l_village'].queryset = self.instance.l_cell.villages.order_by(
-                'name')
+        # if 'l_cell' in self.data:
+        #     try:
+        #         d_id = int(self.data.get('l_cell'))
+        #         self.fields['l_village'].queryset = Village.objects.filter(
+        #             cell_id=d_id).order_by('name')
+        #     except (ValueError, TypeError):
+        #         pass
+        # elif self.instance.pk:
+        #     self.fields['l_village'].queryset = self.instance.l_cell.villages.order_by(
+        #         'name')
 
 
 class DestinationForm(forms.ModelForm):

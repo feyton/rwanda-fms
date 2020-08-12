@@ -164,6 +164,24 @@ def edit_tp_permit(request, pk):
         'o_form': OriginForm(instance=permit.origin),
         'p_form': AddPermitForm(instance=permit)
     }
+    if request.method == 'POST':
+        r_form= RequestorForm(request.POST, instance=permit.requestor)
+        d_form= DestinationForm(request.POST, instance=permit.destination)
+        v_form= TransportVehicleForm(request.POST, instance=permit.vehicle)
+        o_form= OriginForm(request.POST, instance=permit.origin)
+        p_form= AddPermitForm(request.POST, instance=permit)
+        if r_form.is_valid() and d_form.is_valid() and v_form.is_valid() and o_form.is_valid() and  p_form.is_valid():
+            requestor = r_form.save()
+            destination = d_form.save()
+            origin = o_form.save()
+            vehicle = v_form.save()
+            permit = p_form.save()
+            messages.success(request, 'Permit with %s code has been edited.' %permit.code)
+            return redirect(permit)
+        else:
+            messages.error(request, 'Error in form')
+            return render(request, 'forms/tp-create.html', context)
+
     return render(request, 'forms/tp-create.html', context)
 
 
