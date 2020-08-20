@@ -5,7 +5,7 @@ from django.core.mail import send_mail
 from django.db import models
 from django.db.models.signals import post_save
 from django.utils import timezone
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 class UserManager(BaseUserManager):
@@ -76,6 +76,7 @@ class User(AbstractBaseUser, PermissionsMixin):
             'Designates whether the user can log into this admin site.'
         ),
     )
+
     # is_superuser field provided by PermissionsMixin
     # groups field provided by PermissionsMixin
     # user_permissions field provided by PermissionsMixin
@@ -117,13 +118,37 @@ class User(AbstractBaseUser, PermissionsMixin):
     def get_short_name(self):
         return self.first_name
 
+    def is_dfnro(self):
+        try:
+            if self.dfnro:
+                return True
+        except Exception:
+            pass
+
+        return False
+
 
 class Profile(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
     image = models.ImageField(upload_to='profile', blank=True, null=True)
     biography = models.TextField(blank=True, null=True)
+    district = models.ForeignKey(
+        'permit.District', on_delete=models.SET_NULL, null=True, blank=True)
+    sector = models.ForeignKey(
+        'permit.Sector', blank=True, null=True, on_delete=models.SET_NULL)
+    cell = models.ForeignKey(
+        'permit.Cell', on_delete=models.SET_NULL, null=True, blank=True)
+    is_agent = models.BooleanField(default=False)
+
+    def save(self, *args, **kwargs):
+        if self.is_agent and not self.district:
+            raise ValueError('Agent must have a defined district')
+
+        super().save(*args, **kwargs)
 
     def __str__(self):
+        if self.is_agent:
+            return "Agent: %s" % self.user.get_full_name()
         return '{}-Profile'.format(self.user.first_name)
 
 
@@ -133,3 +158,13 @@ def userprofile_receiver(sender, instance, created, *args, **kwargs):
 
 
 post_save.connect(userprofile_receiver, sender=get_user_model())
+
+
+class Officer(models.Model):
+    user = models.OneToOneField(
+        User, on_delete=models.CASCADE, related_name='dfnro', null=True)
+    district = models.OneToOneField(
+        'permit.District', on_delete=models.CASCADE, related_name='dfnro')
+
+    def __str__(self):
+        return "%s - %s " % (self.user.get_short_name(), self.district.name)

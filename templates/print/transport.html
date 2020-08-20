@@ -11,6 +11,10 @@
         .normal {
             font-size: 10pt;
         }
+
+        ol li {
+            margin-bottom: 2pt;
+        }
     </style>
 </head>
 
@@ -26,7 +30,18 @@
         <div class="head-title">
             <div class="header1 text-center underline">URUHUSHYA RWO GUTWARA</div>
             <div class="row text-center">
-                <div class="header1 text-center underline">AMAKARA/IMBAHO/INKWI/IBITI</div>
+                <div class="header1 text-center underline capitalize">
+
+                    {% for cat in categories %}
+
+                    {% if not cat == permit.category %}
+                    <strike>{{cat.get_name_display}}/</strike>
+                    {% else %}
+                    {{cat.get_name_display}}/
+                    {% endif %}
+
+                    {% endfor %}
+                </div>
                 <div class="normal text-center underline pl-10">No: {{permit.code}}</div>
             </div>
 
@@ -34,12 +49,14 @@
         <div class="body">
             <ol class="normal">
                 <!-- Usaba uruhushya -->
-                <li>AMAZINA: <span class="bold normal capitalize">{{permit.requestor.names}}</span></li>
+                <li>AMAZINA: <span class="bold normal capitalize">{{permit.requestor.names}}
+                        {% if permit.requestor.telephone %}
+                        &nbsp;({{permit.requestor.telephone}})
+                        {% endif %}
+                    </span></li>
                 <li>INDANGAMUNTU: <span class="bold normal">{{permit.requestor.nid}}</span></li>
                 <li>AHO ABARIZWA:
                     <ul class="w-60 pl-10">
-                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span
-                                class="bold">{{permit.requestor.r_village}}</span></li>
                         <li><span class="w-50 pull-left">AKAGALI:</span> <span
                                 class="bold">{{permit.requestor.r_cell}}</span></li>
                         <li><span class="w-50 pull-left">UMURENGE:</span> <span
@@ -50,14 +67,13 @@
                                 class="bold">{{permit.requestor.r_province}}</span></li>
                     </ul>
                 </li>
+
                 <!-- IBISABIRWA URUHUSHYA -->
                 <li>INGANO Y'IBITWAWE: <span class="bold">{{permit.category.get_name_display}}
                         ({{permit.category.measure}} <span class="bold">{{permit.quantity}}</span>)</span></li>
                 <li>AHO BIVA:
                     <!-- Origin location -->
                     <ul class="w-60 pl-10">
-                        <li><span class="w-50 pull-left">UMUDUGUDU:</span> <span
-                                class="bold">{{permit.origin.l_village}}</span></li>
                         <li><span class="w-50 pull-left">AKAGALI:</span> <span
                                 class="bold">{{permit.origin.l_cell}}</span></li>
                         <li><span class="w-50 pull-left">UMURENGE:</span> <span
@@ -66,22 +82,30 @@
                                 class="bold">{{permit.origin.l_district}}</span></li>
                     </ul>
                 </li>
+
                 <li>AHO BIJYA: <span class="bold">{{permit.destination.dest}}</span></li>
                 <!-- Imodoka izakoreshwa -->
-                <li>IMODOKA IZAKORESHWA: <span class="bold">FUSO</span>
+
+                <li>IMODOKA IZAKORESHWA: <span class="bold">{{permit.vehicle.vehicle}}</span>
                     <ul class="w-80 pl-10">
-                        <li><span class="w-30 pull-left">No ZA PULAKI:</span> <span class="bold license">RAB 000
-                                B</span></li>
-                        <li><span class="w-30 pull-left">IZINA RY'UMUSHOFERI:</span> <span class="bold">HABKURAMA</span>
+                        <li><span class="w-30 pull-left">No ZA PULAKI:</span> <span
+                                class="bold license">{{permit.vehicle.plate}}</span></li>
+                        <li><span class="w-30 pull-left">IZINA RY'UMUSHOFERI:</span> <span
+                                class="bold">{{permit.vehicle.driver}}</span>
                         </li>
                         <li><span class="w-30 pull-left">TELEFONI YE:</span> <span
-                                class="bold telephone">0788498955</span></li>
+                                class="bold telephone">{{permit.vehicle.driver_tel}}</span></li>
+
                         <li><span class="w-30 pull-left">INDANGAMUNTU:</span> <span
-                                class="bold nid">119978225462235</span></li>
+                                class="bold nid">{{permit.vehicle.nid}}</span></li> <br>
                     </ul>
                 </li>
-                <li>IGIHE URUHUSHYA RUZAMARA: <span>Umunsi Umwe <span class="date">{{permit.start_date}} kugeza
-                            {{permit.end_date}}</span></span></li>
+
+                <li>IGIHE URUHUSHYA RUZAMARA: <span class="bold">{{permit.permit_period}} <span class="date">Kuva
+                            {{permit.start_date|date:"d-m-Y"}}
+                            kugeza
+                            {{permit.end_date|date:"d-m-Y"}}</span></span></li>
+                <br>
             </ol>
         </div>
 
@@ -114,8 +138,9 @@
                     rwo/zo gutema</li>
                 <li class="pl-5"><i class="arrow right mr-3"></i>Uru ruhushya rwemerwa gusa iyo ari umwimerere
                     (Original)</li>
-                <li class="pl-5"><i class="arrow right mr-3"></i>Uhawe uruhushya yiyemeje gukurikiza amategeko
-                    n'amabwiriza ariho mugihugu arbana n'ubusugire bw'amashyamba (Itegeko..)</li>
+                <li class="pl-5"><i class="arrow right mr-3"></i><span>Uhawe uru ruhushya yiyemeje gukurikiza itegeko
+                        n’amabwiriza ariho mu Gihugu arebana n’ubusugire bw’amashyamba( itegeko No 47bis/2013 ryo ku wa
+                        28/06/2013 rigena imicungire n’imikoreshereze y’amashyamba mu Rwanda).</span></li>
             </ul>
         </div>
     </div>

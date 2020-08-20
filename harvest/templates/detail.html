@@ -1,9 +1,4 @@
-{% extends 'layout/base.html' %}
-{% block title %}
-Uruhushya&nbsp;{{permit.code}}
-{% endblock title %}
-
-{% block content %}
+{% extends 'layout/base.html' %} {% block content %}
 <div class="panel-header panel-header-sm"></div>
 <div class="content">
     <div class="row">
@@ -42,11 +37,6 @@ Uruhushya&nbsp;{{permit.code}}
                                 Uko bizatwarwa
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#link6" role="tablist" id="p-payment">
-                                Payment
-                            </a>
-                        </li>
                     </ul>
                     <div class="tab-content tab-space">
                         <div class="tab-pane active" id="link1">
@@ -69,7 +59,7 @@ Uruhushya&nbsp;{{permit.code}}
                                             {{permit.requestor.nid}}
                                         </div>
                                     </div>
-
+                                    
                                     {% if permit.requestor.telephone %}
                                     <div class="row">
                                         <div class="col-sm-6">Telephone</div>
@@ -131,9 +121,6 @@ Uruhushya&nbsp;{{permit.code}}
                             <br />Dynamically innovate resource-leveling customer service for
                             state of the art customer service.
                         </div>
-                        <div class="tab-pane" id="link6">
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -143,13 +130,10 @@ Uruhushya&nbsp;{{permit.code}}
                 <div class="card-header">Amahitamo</div>
                 <div class="card-body">
                     <a href="{% url 'edit-tp-view' pk=permit.pk %}" class="btn btn-outline-info">Hindura</a>
-
-                    {% if request.user.is_dfnro or user.is_superuser%}
                     <a href="" class="btn btn-round btn-info">Emeza</a>
                     <a href="" class="btn btn-round btn-info">Menyesha Uwasabye</a>
                     <a href="{% url 'transport-permit-print' pk=permit.pk code=permit.code %}"
                         class="btn btn-round btn-info">Sohora Mu Mashini</a>
-                    {% endif %}
                 </div>
             </div>
         </div>
@@ -157,7 +141,3 @@ Uruhushya&nbsp;{{permit.code}}
 </div>
 
 {% endblock content %}
-
-{% block extra_js %}
-
-{% endblock extra_js %}

@@ -1,11 +1,15 @@
-from django.db import models
-from django.utils.translation import ugettext_lazy as _
-from django.utils import timezone
 from datetime import timedelta
+
 from django.contrib.auth import get_user_model
-from .utils import permit_code, start_date_default, end_date_default
-from django.core.exceptions import ValidationError
-from django.shortcuts import reverse
+from django.core.exceptions import ObjectDoesNotExist, ValidationError
+from django.db import models
+from django.shortcuts import get_object_or_404, reverse
+from django.utils.translation import gettext_lazy as _
+
+from user.models import Officer
+
+from .utils import end_date_default, permit_code, start_date_default
+
 User = get_user_model()
 
 
@@ -134,7 +138,7 @@ class TransportVehicle(models.Model):
         _('Ubwoko'), max_length=20, choices=cats, default='FS')
     plate = models.CharField(_('Plake'), max_length=10)
     max_q = models.PositiveIntegerField(
-        blank=True, null=True, verbose_name='Ibyo itwara')
+        blank=True, null=True, verbose_name='Ibyo itwara(Toni)')
     driver = models.CharField(_('Umushoferi'), max_length=255)
     driver_tel = models.CharField(_("Nimero y'umushoferi"), max_length=255)
 
@@ -153,8 +157,8 @@ class OriginLocation(models.Model):
         Sector, on_delete=models.CASCADE, verbose_name='Umurenge')
     l_cell = models.ForeignKey(
         Cell, null=True, on_delete=models.SET_NULL, verbose_name='Akagali')
-    #l_village = models.ForeignKey(
-        #Village, null=True, on_delete=models.SET_NULL, verbose_name='Umudugudu')
+    # l_village = models.ForeignKey(
+    # Village, null=True, on_delete=models.SET_NULL, verbose_name='Umudugudu')
 
     def __str__(self):
         return self.code
@@ -198,13 +202,28 @@ class Destination(models.Model):
         return '%s-%s' % (self.d_province, self.d_district)
 
     def dest(self):
+        """This function retrieve and format a destination
+        whether using proince/distrit or just the entered location
+
+        Returns:
+            destination: formatted destination
+        """
         if self.d_province:
             return '%s, %s' % (self.d_district, self.d_province)
         else:
             return "%s" % self.location
 
 
+class PaymentBill(models.Model):
+    number = models.CharField(_('RRA Nomero'), max_length=10)
+    amount = models.CharField(_('Amafaranga yishyuwe'), max_length=6)
+    rra_slip = models.FileField(
+        upload_to='rra/%Y/', blank=True, null=True, verbose_name='Bordero ya Rwanda Revenue')
+
+
 class TransportPermit(models.Model):
+    officer = models.ForeignKey(
+        'user.Officer', on_delete=models.SET_NULL, null=True, blank=True)
     code = models.CharField(_('Nomero'), max_length=255, blank=True,
                             null=True, editable=False)
     category = models.ForeignKey(
@@ -216,8 +235,8 @@ class TransportPermit(models.Model):
     origin = models.ForeignKey(
         OriginLocation, on_delete=models.SET_NULL, null=True)
     destination = models.ForeignKey(
-        Destination, on_delete=models.SET_NULL, null=True, blank=False)
-    quantity = models.PositiveIntegerField(blank=False, null=False)
+        Destination, on_delete=models.SET_NULL, null=True)
+    quantity = models.PositiveIntegerField()
 
     start_date = models.DateField(
         auto_now_add=False, default=start_date_default)
@@ -233,24 +252,43 @@ class TransportPermit(models.Model):
         verbose_name_plural = 'transport permits'
 
     def __str__(self):
-        return "%s <%s>" % (self.request.names, self.code)
+        return "%s <%s>" % (self.requestor.names, self.code)
 
     def save(self, *args, **kwargs):
         if not self.code:
             self.code = permit_code()
+        d = self.origin.l_district
+        try:
+            officer = Officer.objects.get(district=d)
+
+        except ObjectDoesNotExist as e:
+            us, cr = User.objects.get_or_create(
+                email='dfnro@%s.gov.rw' % d.name.lower(), first_name='DFNRO', last_name='%s' % d.name)
+            if cr:
+                us.set_password('trtruyrtgrtfver7363585665895yhycyf')
+            officer, created = Officer.objects.get_or_create(
+                user=us, district=d)
+        self.officer = officer
         super().save(*args, **kwargs)
 
     def approved(self):
         if self.approved_by is None:
             raise ValidationError('You must provide an approver')
-        else:
-            return True
+        return True
 
     def get_absolute_url(self):
         return reverse('tp-single-view', kwargs={'pk': self.pk})
+
     def get_quantity(self):
-        return "%s (%s)" %(self.category.measure, self.quantity)
+        return "%s (%s)" % (self.category.measure, self.quantity)
 
+    def permit_period(self):
+        days = self.end_date - self.start_date
+        if days.days == 1:
+            return "Umunsi umwe"
+        return "Iminsi %s" % (days.days)
 
-class HarvestingPermit(models.Model):
-    pass
+    def editable(self):
+        if not self.approved_by:
+            return True
+        return None

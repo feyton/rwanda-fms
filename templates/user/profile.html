@@ -21,7 +21,7 @@
                     <h5 class="title">Profile: {{ request.user.get_full_name }}</h5>
                 </div>
                 <div class="card-body">
-                    <form method="post" action="." enctype="multipart/form-data">
+                    <form method="post" action="." enctype="multipart/form-data" data-district-url="{% url 'ajax-load-districts' %}" id="pform">
                         {% csrf_token %}
 
                         {% for field in p_form %}
@@ -53,6 +53,26 @@
                                 <div class="form-group">
                                     <label>Last Name</label>
                                     {% render_field form.last_name class="form-control"%}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 pr-1">
+                                <div class="form-group">
+                                    <label>Akarere</label>
+                                    {% render_field p_form.district class="custom-select"%}
+                                </div>
+                            </div>
+                            <div class="col-md-4 pl-1">
+                                <div class="form-group">
+                                    <label>Umurenge</label>
+                                    {% render_field p_form.sector class="custom-select"%}
+                                </div>
+                            </div>
+                            <div class="col-md-4 pl-1">
+                                <div class="form-group">
+                                    <label>Akagali</label>
+                                    {% render_field p_form.cell class="custom-select"%}
                                 </div>
                             </div>
                         </div>
@@ -219,5 +239,39 @@
             }
         })
     })
+</script>
+<script>
+    $("#id_district").change(function () {
+        var url = $("#pform").attr("data-district-url");  // get the url of the `load_cities` view
+        var ID = $(this).val();
+        $('#id_cell').val('');
+        //$('#id_r_village').val('');
+
+        $.ajax({                       // initialize an AJAX request
+            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+            data: {
+                'district': ID       // add the country id to the GET parameters
+            },
+            success: function (data) {   // `data` is the return of the `load_cities` view function
+                $("#id_sector").html(data); // replace the contents of the city input with the data that came from the server
+            }
+        });
+    })
+    $("#id_sector").change(function () {
+        var url = $("#pform").attr("data-district-url");  // get the url of the `load_cities` view
+        var ID = $(this).val();
+        //$('#id_r_village').val('');
+
+        $.ajax({                       // initialize an AJAX request
+            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+            data: {
+                'sector': ID       // add the country id to the GET parameters
+            },
+            success: function (data) {   // `data` is the return of the `load_cities` view function
+                $("#id_cell").html(data); // replace the contents of the city input with the data that came from the server
+            }
+        });
+    })
+
 </script>
 {% endblock extra_js %}

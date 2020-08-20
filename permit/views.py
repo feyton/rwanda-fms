@@ -10,9 +10,9 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.decorators import method_decorator
 from django.views.generic import View
 
-from .forms import (AddPermitForm, AddressForm, DestinationForm, OriginForm,
-                    RequestorForm, TransportVehicleForm)
-from .models import (Cell, District, HarvestingPermit, Province, Sector,
+from .forms import (AddPermitForm, DestinationForm, OriginForm, RequestorForm,
+                    TransportVehicleForm)
+from .models import (Category, Cell, District, Province, Sector,
                      TransportPermit, Village)
 from .utils import generate_pdf_weasy, render_to_pdf
 
@@ -22,8 +22,14 @@ dirs = settings.BASE_DIR
 @method_decorator(login_required, name='dispatch')
 class TransportPermitView(View):
     def get(self, *args, **kwargs):
+        user = self.request.user
+
+        if user.is_dfnro():
+            d = {'licenses': TransportPermit.objects.filter(
+                officer=user.dfnro)}
+            return render(self.request, 'dfnro-list.html', d)
         context = {
-            'permits': TransportPermit.objects.all(),
+            'permits': TransportPermit.objects.filter(prepared_by=user).order_by('-created'),
             'form': AddPermitForm
 
         }
@@ -57,29 +63,9 @@ def test_template(request):
 def generate_tpermit_pdf(request, pk, *args, **kwargs):
     permit = get_object_or_404(TransportPermit, pk=pk)
     template = 'print/transport.html'
-    context = {'permit': permit}
+    context = {'permit': permit,
+               'categories': Category.objects.all()}
     return generate_pdf_weasy(request, template, permit.code, context)
-
-
-class HarvestingPermitView(View):
-    def get(self, *args, **kwargs):
-        permits = HarvestingPermit.objects.all()[:5]
-        context = {'permits': permits}
-        return render(self.request, 'pages/hp-list.html', context)
-
-
-hp_list_view = HarvestingPermitView.as_view()
-
-
-class CreateHPermitView(View):
-    def get(self, *args, **kwargs):
-        address_form = AddressForm
-        form = AddPermitForm()
-        context = {'form': form, 'a_form': address_form}
-        return render(self.request, 'forms/create-wizard.html', context)
-
-
-create_hp_view = CreateHPermitView.as_view()
 
 
 class CreateTPermitView(View):
@@ -165,18 +151,19 @@ def edit_tp_permit(request, pk):
         'p_form': AddPermitForm(instance=permit)
     }
     if request.method == 'POST':
-        r_form= RequestorForm(request.POST, instance=permit.requestor)
-        d_form= DestinationForm(request.POST, instance=permit.destination)
-        v_form= TransportVehicleForm(request.POST, instance=permit.vehicle)
-        o_form= OriginForm(request.POST, instance=permit.origin)
-        p_form= AddPermitForm(request.POST, instance=permit)
-        if r_form.is_valid() and d_form.is_valid() and v_form.is_valid() and o_form.is_valid() and  p_form.is_valid():
+        r_form = RequestorForm(request.POST, instance=permit.requestor)
+        d_form = DestinationForm(request.POST, instance=permit.destination)
+        v_form = TransportVehicleForm(request.POST, instance=permit.vehicle)
+        o_form = OriginForm(request.POST, instance=permit.origin)
+        p_form = AddPermitForm(request.POST, instance=permit)
+        if r_form.is_valid() and d_form.is_valid() and v_form.is_valid() and o_form.is_valid() and p_form.is_valid():
             requestor = r_form.save()
             destination = d_form.save()
             origin = o_form.save()
             vehicle = v_form.save()
             permit = p_form.save()
-            messages.success(request, 'Permit with %s code has been edited.' %permit.code)
+            messages.success(
+                request, 'Permit with %s code has been edited.' % permit.code)
             return redirect(permit)
         else:
             messages.error(request, 'Error in form')
@@ -206,3 +193,11 @@ def export_csv():
             code=s_code, name=sector, district=dist)
         cel, created = Cell.objects.get_or_create(
             name=cell, code=c_code, sector=sec)
+
+
+class DashboardSummary(View):
+    def get(self, *args, **kwargs):
+        data = {}
+        return JsonResponse(data)
+
+dashboard_summary = DashboardSummary.as_view()

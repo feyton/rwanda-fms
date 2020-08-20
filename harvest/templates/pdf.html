@@ -1,0 +1,222 @@
+{% load static %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvesting permit</title>
+    <link rel="stylesheet" href="/static/css/main.css" class="css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="heading">
+            <div class="header1">REPUBULIKA Y'U RWANDA</div>
+            <div class="header1">INTARA Y'AMAJYARUGURU</div>
+            <div class="symbol"><img src="/static/img/favicon.jpg" alt="" height="50px" width="50px"></div>
+            <div class="header1 underline">AKARERE KA RULINDO</div>
+            <div class="header1">REF: <span class="capitalize italic">Ubuhinzi n'Umutungo Kamere</span></div>
+        </div>
+        <div class="head-title">
+            <div class="header1 text-center underline">URUHUSHYA RWO GUTEMA IBITI</div>
+        </div>
+        <div class="requestor">
+            <div class="subtitle"><span class="normal bold">1. USABA: </span> <span class="normal">LETA, AKARERE</span>
+            </div>
+            <div class="requestor info">
+                <div class="normal capitalize"><span>Izina: </span>{{permit.requestor.names}}
+                    <span>(0788498955)</span></div>
+                <div class="normal"><span>Aho abarizwa: </span>Umurenge wa <strong>TUMBA</strong>, Akarere ka
+                    <strong>RULINDO</strong></div>
+                <div class="normal nid"><span>Indangamuntu: </span>1199912544558754</div>
+            </div>
+        </div>
+        <div class="owner">
+            <div class="subtitle normal"><span class="normal bold">2. NYIRISHYAMBA: </span>Kalimwabo Mathieu</div>
+        </div>
+        <div class="harvest">
+            <div class="subtitle"><span class="normal bold">IBIGOMBA GUTEMWA:</span></div>
+            <div class="requestor info ">
+                <div class="row justify">
+                    <span class="normal">Izina ry'Ishyamba: </span><b class="uppercase">Tumba</b>
+                    <span class="normal">Intara: </span> <b class="uppercase">AMAJYARUGURU</b>
+                    <span class="normal">Akarere: </span> <b class="uppercase">Rulindo</b>
+                    <span class="normal">Umurenge: </span><b class="uppercase">Akagali</b>
+                </div>
+                <div class="row">
+                    <span class="normal">Umubare w'ibiti bizatemwa: </span><b>0.9 ha</b>
+                </div>
+                <div class="row justify">
+                    <span class="normal">Ubuso bw'ahazatemwa: </span> <b>20%</b>
+                    <span class="normal">Imyaka rimaze: </span> <b class="uppercase">Imyaka 7</b>
+                </div>
+                <div class="row">
+                    <span class="normal">Uko hareshya uturutse ku Karere: </span> <b>31 km</b>
+
+                </div>
+                <div class="row">
+                    <span class="normal">Impamvu zitumye bitemwa: </span> <b>Rireze</b>
+                </div>
+            </div>
+        </div>
+        <div class="harvest">
+            <div class="subtitle"><span class="normal bold uppercase">3.1 IBITI BIBAZWA/ BICANWA</span></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ubwoko</th>
+                        <th>Umurambararo</th>
+                        <th>Uburebure</th>
+                        <th>Umubare kuri ha</th>
+                        <th>Umubare wibiti byo gutemwa</th>
+                        <th>Igiciro cy'igiti k'imwe</th>
+                        <th>Agaciro k'ibiti bizatemwa</th>
+                        <th>Amahoro ya FONERWA (1 %)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="empty">
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="harvest">
+            <div class="subtitle"><span class="normal bold uppercase">3.2 IBITI BISHINGWA</span></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ubwoko</th>
+                        <th>Umurambararo</th>
+                        <th>Uburebure</th>
+                        <th>Umubare kuri ha</th>
+                        <th>Umubare wibiti byo gutemwa</th>
+                        <th>Igiciro cy'igiti k'imwe</th>
+                        <th>Agaciro k'ibiti bizatemwa</th>
+                        <th>Amahoro ya FONERWA (1 %)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="empty">
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="taxes">
+            <div class="subtitle"><span class="normal bold uppercase">4. IGICIRO N’AMAHORO</span></div>
+            <div class="requestor info">
+                <div class="row">
+                    <span class="normal">Nyirukuruhabwa agomba kuriha ibyo aguze no gutanga amahoro n’andi mafaranga
+                        agenewe
+                        FONERWA mbere
+                        y’uko Umuyobozi ufite Amashyamba mu nshingano ze asinya bagateraho na kashi</span>
+                </div>
+                <div class="row">
+                    <span class="normal">Amahoro yishyuwe: </span><b>-</b>
+                    <span class="normal">Yishyuwe kuri Banki ya: </span><b>-</b>
+                    <span class="normal">Ahantu: </span><b>-</b>
+                </div>
+                <div class="row">
+                    <span class="normal">(Ashyirwa kuri konti <strong>120 28 26</strong> ya
+                        <strong>FONERWA</strong> muri <b>BNR</b>)</span>
+                </div>
+                <div class="row">
+                    <span class="normal">
+                        Imisoro yeguriwe inzego z’ibanze: <b>Izishyurwa bagiye gutwara ibyatemwe (amasiteri).</b> <span
+                            class="normal">Yishyuwe
+                            kuri: </span><b>-</b> <span class="normal">Banki ya: </span><b>-</b> <span
+                            class="normal">Ahantu: </span><b>-</b> Itariki: <b>-</b>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="instructions">
+            <div class="subtitle"><span class="normal bold uppercase">5. AMABWIRIZA Y’IKIGOMBA GUKORWA AHASARUWE</span>
+            </div>
+            <div class="requestor info">
+                <ul class="normal no-decoration">
+                    <li><i class="arrow right mr-3"></i>Mu gihe cyo gutema, bagomba gutema ibiti baconga ibishyitsi
+                        kugira ngo ibindi bizashibuka (ibishibu) bizashobore kuzamuka neza;</li>
+                    <li><i class="arrow right mr-3"></i></span>Gutema basiga ibiti bikuze bizabazwa, nibura bitanu (5)
+                        no
+                        kongera ingemwe (Eucalyptus spp)
+                        ahadateye;</li>
+                    <li><i class="arrow right mr-3"></i></span>Gushyiraho ibimenyetso bigaragaza imbibi z’ubuso bugomba
+                        gusarurwa;</li>
+                    <li><i class="arrow right mr-3"></i></span>Kwibuka kuzasaba uruhushya rwo gutwara ibikomoka ku
+                        mashyamba (amasiteri y’inkwi) mbere yo
+                        kubitwara;</li>
+                    <li><i class="arrow right mr-3"></i></span>Gusibura imirwanyasuri aho yasibamwe;</li>
+                    <li><i class="arrow right mr-3"></i></span>Mu gihe cyo gutema ibiti, kwita ku mutekano w’abanyura
+                        hafi
+                        y’ishyamba no mu tuyira
+                        tw’abanyamaguru.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="permit-duration">
+            <div class="subtitle"><span class="normal bold uppercase">6. IGIHE URUHUSHYA RUZAMARA N’UMUKONO NA KASHI
+                    Y’AKARERE</span></div>
+            <div class="requestor info">
+                <div class="row">
+                    <span class="normal">Uru ruhushya rufite agaciro uhereye tariki ya <b>03/09/2020</b> kugeza ku ya
+                        <b>03/10/2020</b>.</span>
+                </div>
+                <div class="row p-1 normal">
+                    Bikorewe i <strong>RULINDO</strong>, kuwa <strong>28/07/2020</strong>
+                </div>
+                <div class="row pt-1 mb-5">
+                    <div class="w-50 pull-left">
+                        <span class="bold underline normal ">Biteguwe na:</span>
+                    </div>
+                    <div class="w-50 pull-right">
+                        <span class="bold underline normal ">Byemejwe na:</span>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="w-50 pull-left">
+                        <h6 class="normal p-0 m-0">SALAMA Fides</h6>
+                        <h6 class="normal capitalize">Umukozi ushinzwe amashyamba n'umutungo kamere mu karere ka Rulino
+                        </h6>
+                    </div>
+                    <div class="w-50 pull-right">
+                        <h6 class="normal p-0 m-0">KAYIRANGA Emmanuel</h6>
+                        <h6 class="normal">Umuyobozi w'Akrere ka Rulindo</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row normal">
+                <strong>ICYOTONDERWA: </strong> <span class="normal">Uru ruhushya rwemerwa gusa iyo ari umwimerere
+                    (original).</span>
+            </div>
+            <div class="row">
+                <h6>Bimenyeshejwe:</h6>
+                <ul class="normal pl-10">
+                    <li><span></span>Bwana Umunyamabanga Nshingwabikorwa w’Umurenge wa Buyoga</li>
+                    <li><span></span>Bwana Umunyamabanga Nshingwabikorwa w’Umurenge wa Buyoga</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

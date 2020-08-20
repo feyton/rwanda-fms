@@ -1,20 +1,13 @@
 from django import forms
 
-from .models import (Address, Cell, Destination, District, HarvestingPermit,
-                     OriginLocation, Requestor, Sector, TransportPermit,
-                     TransportVehicle, Village)
+from .models import (Address, Cell, Destination, District, OriginLocation,
+                     Requestor, Sector, TransportPermit, TransportVehicle)
 
 
 class AddPermitForm(forms.ModelForm):
     class Meta:
         model = TransportPermit
         fields = ['category', 'quantity', 'start_date', 'end_date']
-
-
-class AddHPermitForm(forms.ModelForm):
-    class Meta:
-        model = HarvestingPermit
-        fields = '__all__'
 
 
 class AddressForm(forms.ModelForm):
@@ -44,7 +37,8 @@ class RequestorForm(forms.ModelForm):
         model = Requestor
         exclude = ['address']
         widgets = {
-            'nid': forms.TextInput(attrs={'class': 'nid-input'})
+            'nid': forms.TextInput(attrs={'class': 'nid-input'}),
+            'telephone': forms.TextInput(attrs={'class': ' tel-number'})
         }
 
     def __init__(self, *args, **kwargs):
@@ -100,6 +94,10 @@ class TransportVehicleForm(forms.ModelForm):
     class Meta:
         model = TransportVehicle
         fields = '__all__'
+        widgets = {
+            'plate': forms.TextInput(attrs={'class': ' plate'}),
+            'driver_tel': forms.TextInput(attrs={'class': ' d-number'})
+        }
 
 
 class OriginForm(forms.ModelForm):

@@ -1,6 +1,6 @@
 /asset
 
-
+env
 # Created by https://www.gitignore.io/api/django,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=django,visualstudiocode
 
@@ -124,5 +124,6 @@ dmypy.json
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.vscode
 
 # End of https://www.gitignore.io/api/django,visualstudiocode

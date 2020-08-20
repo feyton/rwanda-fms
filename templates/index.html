@@ -11,15 +11,15 @@
         <div class="col-md-12">
             <div class="card card-stats">
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row dashboard_summary" data-url="{% url 'dashboard-summary' %}">
                         <div class="col-md-3">
                             <div class="statistics">
                                 <div class="info">
                                     <div class="icon icon-primary">
                                         <i class="now-ui-icons ui-2_chat-round"></i>
                                     </div>
-                                    <h3 class="info-title">859</h3>
-                                    <h6 class="stats-title">Messages</h6>
+                                    <h3 class="info-title new_harvesting_permits"></h3>
+                                    <h6 class="stats-title">Impushya Zo Gusarura</h6>
                                 </div>
                             </div>
                         </div>
@@ -29,20 +29,20 @@
                                     <div class="icon icon-success">
                                         <i class="now-ui-icons business_money-coins"></i>
                                     </div>
-                                    <h3 class="info-title">
-                                        <small>$</small>3,521</h3>
-                                    <h6 class="stats-title">Today Revenue</h6>
+                                    <h3 class="info-title new_transport_permits"></h3>
+                                    <h6 class="stats-title">Impushya zo gutwara</h6>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-3">
                             <div class="statistics">
                                 <div class="info">
-                                    <div class="icon icon-info">
-                                        <i class="now-ui-icons users_single-02"></i>
+                                    <div class="icon icon-danger">
+                                        <i class="now-ui-icons objects_support-17"></i>
                                     </div>
-                                    <h3 class="info-title">562</h3>
-                                    <h6 class="stats-title">Customers</h6>
+                                    <h3 class="info-title pending_approval"></h3>
+                                    <h6 class="stats-title">Izitegereje kwemezwa</h6>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +52,8 @@
                                     <div class="icon icon-danger">
                                         <i class="now-ui-icons objects_support-17"></i>
                                     </div>
-                                    <h3 class="info-title">353</h3>
-                                    <h6 class="stats-title">Support Requests</h6>
+                                    <h3 class="info-title pending_pickup"></h3>
+                                    <h6 class="stats-title">Izabonetse</h6>
                                 </div>
                             </div>
                         </div>
@@ -65,3 +65,22 @@
 </div>
 
 {% endblock content %}
+
+{% block extra_js %}
+<script>
+    $(document).ready(function (e) {
+        var endpoint = $('.dashboard_summary').data('url');
+        $.ajax({
+            method: 'GET',
+            url: endpoint,
+            success: function (data) {
+
+            },
+            error: function (error_data) {
+                consolo.log(error_data)
+            }
+        })
+    })
+</script>
+
+{% endblock extra_js %}

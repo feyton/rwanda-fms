@@ -1,0 +1,79 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block title %} Gusarura
+{% endblock title %}
+
+{% block content %}
+
+<div class="panel-header panel-header-sm">
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4 class="card-title">Impushya Zo Gusarura</h4>
+                </div>
+                <div class="card-body">
+                    <div class="toolbar">
+                        <!--        Here you can write extra buttons/actions for the toolbar              -->
+                    </div>
+                    <table id="datatable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Nomero</th>
+                                <th>Usaba</th>
+                                <th>Ishyamba</th>
+                                <th>Aho riherereye</th>
+                                <th>Ubuso</th>
+                                <th class="disabled-sorting text-right">Igikorwa</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Nomero</th>
+                                <th>Usaba</th>
+                                <th>Ishyamba</th>
+                                <th>Aho riherereye</th>
+                                <th>Ubuso</th>
+                                <th class="disabled-sorting text-right">Igikorwa</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            {% for permit in permits %}
+
+
+                            <tr>
+                                <td>{{permit.code}}</td>
+                                <td class="text-capitalize">
+                                    {{permit.requestor}}
+                                </td>
+                                <td>
+                                    {{permit.forest}}
+                                </td>
+                                <td>
+                                    {{permit.forest.address}}
+                                </td>
+                                <td>
+                                    {{permit.forest.area}}
+                                </td>
+                                <td class="text-right">
+                                    <a href="{{permit.get_absolute_url}}" title="View" class="text-info"><i
+                                            class="fa fa-eye"></i></a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="button-group">
+                    <a href="{% url 'create-hp-view' %}" class="btn btn-info btn-round">New
+                        Permit</a>
+                </div>
+                <!-- end content-->
+            </div><!--  end card  -->
+        </div> <!-- end col-md-12 -->
+    </div> <!-- end row -->
+</div>
+
+{% endblock content %}

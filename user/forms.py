@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 
+from permit.models import Cell, Sector
+
 from .models import Profile
 
 User = get_user_model()
@@ -40,9 +42,33 @@ class CreateUserForm(UserCreationForm):
 
 
 class UpdateProfileForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['sector'].queryset = Sector.objects.none()
+        self.fields['cell'].queryset = Cell.objects.none()
+        if 'district' in self.data:
+            try:
+                d_id = int(self.data.get('district'))
+                self.fields['sector'].queryset = Sector.objects.filter(
+                    district_id=d_id).order_by('name')
+            except (ValueError, TypeError):
+                pass
+        elif self.instance.pk and self.instance.district is not None:
+            self.fields['sector'].queryset = self.instance.district.sectors.order_by(
+                'name')
+        if 'sector' in self.data:
+            try:
+                d_id = int(self.data.get('sector'))
+                self.fields['cell'].queryset = Cell.objects.filter(
+                    sector_id=d_id).order_by('name')
+            except (ValueError, TypeError):
+                pass
+        elif self.instance.pk and self.instance.sector is not None:
+            self.fields['cell'].queryset = self.instance.sector.cells.order_by(
+                'name')
     class Meta:
         model = Profile
-        fields = ['image', 'biography']
+        fields = ['image', 'biography', 'district', 'sector', 'cell']
         widgets = {
             'biography': forms.Textarea(attrs={'rows': 3, 'cols': 60}),
         }

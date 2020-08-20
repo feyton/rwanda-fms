@@ -1,16 +1,6 @@
 {% extends 'layout/base.html' %}
 
 {% load static %}
-
-{% block title %}
-
-{% if p_form.instance %}
-Hindura&nbsp;{{p_form.instance}}
-{% else %}
-Gutwara
-{% endif %}
-
-{% endblock title %}
 {% block stylesheets %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.9/datepicker.min.css"
     integrity="sha256-ZvEtNAd4i8k2hUczGFP3tFDwBRjw3WUTUagRUP7WcEw=" crossorigin="anonymous" />
@@ -44,14 +34,14 @@ Gutwara
                                     <li class="nav-item">
                                         <a class="nav-link active" href="#about" data-toggle="tab" role="tab"
                                             aria-controls="about" aria-selected="true">
-                                            <i class="now-ui-icons users_circle-08"></i> Uwaka uruhushya
+                                            <i class="now-ui-icons users_circle-08"></i> Usaba uruhushya
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#account" data-toggle="tab" data-toggle="tab"
                                             role="tab" aria-controls="account" aria-selected="false">
-                                            <i class="now-ui-icons ui-1_settings-gear-63"></i>Ingano yibitwawe nigihe
-                                            bizatwarirwa
+                                            <i class="now-ui-icons ui-1_settings-gear-63"></i>Ishyamba risabirwa
+                                            uruhushya
                                         </a>
                                     </li>
                                     <li class="nav-item">
@@ -85,6 +75,16 @@ Gutwara
                                                     <div class="col-sm-8">
                                                         {{field}}
                                                     </div>
+                                                    {% if field.errors %}
+                                                    {% for error in field.errors %}
+                                                    <div class="text-left text-secondary font-weight-bolder">
+                                                        <p>{{ error|escape}}</p>
+                                                    </div>
+                                                    <script>
+                                                        $('.form-control').addClass('form-control-danger')
+                                                    </script>
+                                                    {% endfor %}
+                                                    {% endif %}
 
                                                 </div>
                                             </div>
@@ -97,11 +97,11 @@ Gutwara
 
                             </div>
                             <div class="tab-pane fade" id="account">
-                                <h5 class="info-text"> Ubwoko ningano yibisabirwa uruhushya </h5>
+                                <h5 class="info-text"> Ishyamba risabirwa uruhushya </h5>
                                 <div class="row justify-content-center">
                                     <div class="col-sm-6 ">
 
-                                        {% for field in p_form %}
+                                        {% for field in f_form %}
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group row">
@@ -111,6 +111,16 @@ Gutwara
                                                         {{field}}
                                                     </div>
 
+                                                    {% if field.errors %}
+                                                    {% for error in field.errors %}
+                                                    <div class="text-left text-secondary font-weight-bolder">
+                                                        <p>{{ error|escape}}</p>
+                                                    </div>
+                                                    <script>
+                                                        $('.form-control').addClass('form-control-danger')
+                                                    </script>
+                                                    {% endfor %}
+                                                    {% endif %}
                                                 </div>
                                             </div>
                                         </div>
@@ -121,10 +131,10 @@ Gutwara
                             <div class="tab-pane fade" id="address">
                                 <div class="row justify-content-center">
                                     <div class="col-sm-12">
-                                        <h5 class="info-text"> Injiza aho ibiti bizava </h5>
+                                        <h5 class="info-text"> Ibiti bibazwa/Bicanwa </h5>
                                     </div>
                                     <div class="col-sm-6">
-                                        {% for field in o_form %}
+                                        {% for field in t_form %}
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group row">
@@ -143,10 +153,10 @@ Gutwara
 
 
                                     <div class="col-sm-12">
-                                        <h5 class="info-text"> Injiza aho ibiti bizajya </h5>
+                                        <h5 class="info-text"> Ibiti bishingwa </h5>
                                     </div>
                                     <div class="col-sm-6">
-                                        {% for field in d_form %}
+                                        {% for field in c_form %}
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group row">
@@ -168,11 +178,11 @@ Gutwara
                             <div class="tab-pane fade" id="vehicle">
                                 <div class="row justify-content-center">
                                     <div class="col-sm-12">
-                                        <h5 class="info-text"> Amakuru ajyanye n'imodoka izabitwara. </h5>
+                                        <h5 class="info-text">Igihe isarurwa rizatangira </h5>
                                     </div>
                                     <div class="col-sm-6">
 
-                                        {% for field in v_form %}
+                                        {% for field in p_form %}
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group row">
@@ -251,71 +261,61 @@ Gutwara
             });
         });
         new Cleave('.nid-input', {
-            numericOnly: true,
             delimiters: [" "],
             blocks: [1, 4, 1, 7, 1, 2],
-        });
-        new Cleave('.tel-number', {
-            numericOnly: true,
-            blocks: [4, 3, 3]
-        });
-        new Cleave('.plate', {
-            uppercase: true,
-            blocks: [3, 3, 1]
-        });
-        new Cleave('.d-number', {
-            numericOnly: true,
-            blocks: [4, 3, 3]
         })
 
     });
 </script>
 <script>
     $("#id_r_province").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var countryId = $(this).val();
         $('#id_r_sector').val('');
         $('#id_r_cell').val('');
         // $('#id_r_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'province': countryId       // add the country id to the GET parameters
+                'province': countryId // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_r_district").html(data);  // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_r_district").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     });
     $("#id_r_district").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var ID = $(this).val();
         $('#id_r_cell').val('');
         //$('#id_r_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'district': ID       // add the country id to the GET parameters
+                'district': ID // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_r_sector").html(data); // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_r_sector").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     })
     $("#id_r_sector").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var ID = $(this).val();
         //$('#id_r_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'sector': ID       // add the country id to the GET parameters
+                'sector': ID // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_r_cell").html(data); // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_r_cell").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     })
@@ -336,66 +336,69 @@ Gutwara
 
     //For new Origin Location
     $("#id_l_province").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var countryId = $(this).val();
         $('#id_l_sector').val('');
         $('#id_l_cell').val('');
         //$('#id_l_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'province': countryId       // add the country id to the GET parameters
+                'province': countryId // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_l_district").html(data);  // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_l_district").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     });
     $("#id_l_district").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var ID = $(this).val();
         $('#id_l_cell').val('');
         //$('#id_l_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'district': ID       // add the country id to the GET parameters
+                'district': ID // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_l_sector").html(data); // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_l_sector").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     })
     $("#id_l_sector").change(function () {
-        var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+        var url = $("#hpform").attr("data-district-url"); // get the url of the `load_cities` view
         var ID = $(this).val();
         //$('#id_l_village').val('');
 
-        $.ajax({                       // initialize an AJAX request
-            url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        $.ajax({ // initialize an AJAX request
+            url: url, // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
             data: {
-                'sector': ID       // add the country id to the GET parameters
+                'sector': ID // add the country id to the GET parameters
             },
-            success: function (data) {   // `data` is the return of the `load_cities` view function
-                $("#id_l_cell").html(data); // replace the contents of the city input with the data that came from the server
+            success: function (data) { // `data` is the return of the `load_cities` view function
+                $("#id_l_cell").html(
+                    data); // replace the contents of the city input with the data that came from the server
             }
         });
     })
     ///$("#id_l_cell").change(function () {
-        //var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
-        //var ID = $(this).val();
+    //var url = $("#hpform").attr("data-district-url");  // get the url of the `load_cities` view
+    //var ID = $(this).val();
 
-        //$.ajax({                       // initialize an AJAX request
-         //   url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
-         //   data: {
-         //       'cell': ID       // add the country id to the GET parameters
-         //   },
-            //success: function (data) {   // `data` is the return of the `load_cities` view function
-               // $("#id_l_village").html(data); // replace the contents of the city input with the data that came from the server
-            //}
-        //});
+    //$.ajax({                       // initialize an AJAX request
+    //   url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+    //   data: {
+    //       'cell': ID       // add the country id to the GET parameters
+    //   },
+    //success: function (data) {   // `data` is the return of the `load_cities` view function
+    // $("#id_l_village").html(data); // replace the contents of the city input with the data that came from the server
+    //}
+    //});
     //})
 </script>
 

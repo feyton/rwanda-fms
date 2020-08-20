@@ -4,16 +4,19 @@ import random
 from datetime import datetime
 from io import BytesIO
 
+from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.template.loader import get_template, render_to_string
 from django.utils import timezone
 from reportlab.pdfgen import canvas
+import os
+os.add_dll_directory(r"C:\Program Files\GTK3-Runtime Win64\bin")
 from weasyprint import HTML
 from weasyprint.fonts import FontConfiguration
 from xhtml2pdf import pisa
-from django.conf import settings
+
 dirs = settings.BASE_DIR
 
 
@@ -83,3 +86,5 @@ def generate_pdf_weasy(request, template, file_name, context):
     pdf = HTML(string=html, base_url=request.build_absolute_uri()
                ).write_pdf(response, font_config=font_config)
     return response
+
+
