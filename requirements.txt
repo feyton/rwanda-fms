@@ -31,7 +31,7 @@ sqlparse==0.4.4
 tinycss2==1.1.1
 types-cryptography==3.3.23
 tzdata==2022.2
-urllib3==1.26.12
+urllib3==1.26.17
 weasyprint==56.1
 webencodings==0.5.1
 zopfli==0.2.1
