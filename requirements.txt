@@ -11,7 +11,7 @@ django-allauth==0.51.0
 django-restframework==0.0.1
 django-widget-tweaks==1.4.12
 djangorestframework==3.13.1
-fonttools==4.37.3
+fonttools==4.43.0
 html5lib==1.1
 idna==3.4
 oauthlib==3.2.2
